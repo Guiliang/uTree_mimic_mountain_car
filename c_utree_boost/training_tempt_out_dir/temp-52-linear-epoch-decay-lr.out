@@ -1,0 +1,456 @@
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+reading from /Local-Scratch/UTree model/mountaincar/model_boost_linear_qsplit_noabs_save_linear_epoch_decay_lr/, starting at 52
+=============== update starts ===============
+2018-02-16 14:52:23.763200: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-16 14:52:23.911586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:01:00.0
+totalMemory: 11.90GiB freeMemory: 10.47GiB
+2018-02-16 14:52:23.911617: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.15447785749, max_diff:0.499584822944, training_epochs:50, lr:0.0526684636119)
+node index is 162
+2018-02-16 14:52:24.566467: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.114289384651, max_diff:0.433188154856, training_epochs:50, lr:0.0532623169108)
+node index is 144
+2018-02-16 14:52:24.837879: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0155010084149, max_diff:0.0637135601008, training_epochs:50, lr:0.0532623169108)
+node index is 142
+2018-02-16 14:52:25.063890: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.000837761146424, max_diff:0.0133427636666, training_epochs:50, lr:0.0526315789474)
+node index is 126
+2018-02-16 14:52:25.366504: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00598263939402, max_diff:0.00598263939402, training_epochs:50, lr:0.0520156046814)
+node index is 112
+2018-02-16 14:52:25.610121: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.102914941486, max_diff:0.649275375758, training_epochs:64, lr:0.0496504031209)
+node index is 110
+2018-02-16 14:52:26.264398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.19279970397, max_diff:2.92003139779, training_epochs:59, lr:0.0502313624679)
+node index is 96
+2018-02-16 14:52:26.813896: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.59870114957, max_diff:4.37339850108, training_epochs:82, lr:0.048514815756)
+node index is 84
+2018-02-16 14:52:27.791109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.53745815865, max_diff:8.87347893609, training_epochs:66, lr:0.047966281407)
+node index is 70
+2018-02-16 14:52:28.452906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.97990390911, max_diff:9.18471508078, training_epochs:77, lr:0.0474300124224)
+node index is 58
+2018-02-16 14:52:29.332717: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.96039071986, max_diff:14.5232355294, training_epochs:69, lr:0.0469056019656)
+node index is 46
+2018-02-16 14:52:30.061804: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:2.32289864458, max_diff:13.5434386683, training_epochs:86, lr:0.0463926609964)
+node index is 34
+2018-02-16 14:52:31.075505: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00727436203502, max_diff:0.00727436203502, training_epochs:50, lr:0.0898876404494)
+node index is 528
+2018-02-16 14:52:31.394485: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0354137118153, max_diff:0.0471310666851, training_epochs:50, lr:0.0863930885529)
+node index is 516
+2018-02-16 14:52:31.744010: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0196123458887, max_diff:0.0198867852038, training_epochs:50, lr:0.0847457627119)
+node index is 512
+2018-02-16 14:52:32.099708: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.000610613244589, max_diff:0.000610613244589, training_epochs:50, lr:0.0831600831601)
+node index is 508
+2018-02-16 14:52:32.472360: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0078812244781, max_diff:0.0078812244781, training_epochs:50, lr:0.0816326530612)
+node index is 504
+2018-02-16 14:52:32.822936: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.000442254211396, max_diff:0.000442254211396, training_epochs:50, lr:0.0801603206413)
+node index is 500
+2018-02-16 14:52:33.201095: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00633483187282, max_diff:0.00633483187282, training_epochs:50, lr:0.0787401574803)
+node index is 494
+2018-02-16 14:52:33.622721: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0188432595746, max_diff:0.0213137324961, training_epochs:50, lr:0.0773694390716)
+node index is 490
+2018-02-16 14:52:34.030576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0237151035353, max_diff:0.029950590843, training_epochs:50, lr:0.0760456273764)
+node index is 486
+2018-02-16 14:52:34.489486: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0654512648901, max_diff:0.130796425504, training_epochs:50, lr:0.0747663551402)
+node index is 480
+2018-02-16 14:52:34.909281: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.000137073682261, max_diff:0.000137073682261, training_epochs:50, lr:0.0735294117647)
+node index is 472
+2018-02-16 14:52:35.360937: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.66960617428, max_diff:3.35276371229, training_epochs:50, lr:0.0723327305606)
+node index is 464
+2018-02-16 14:52:35.804891: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0237156278077, max_diff:0.0450539178852, training_epochs:50, lr:0.0700525394046)
+node index is 444
+2018-02-16 14:52:36.257300: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0146633528102, max_diff:0.0411640333518, training_epochs:50, lr:0.0689655172414)
+node index is 434
+2018-02-16 14:52:36.772252: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.021734037386, max_diff:0.0475512520573, training_epochs:50, lr:0.0679117147708)
+node index is 426
+2018-02-16 14:52:37.291643: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00725921709668, max_diff:0.0118674462994, training_epochs:50, lr:0.066889632107)
+node index is 414
+2018-02-16 14:52:37.823543: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0511131473207, max_diff:0.0637142777351, training_epochs:50, lr:0.0658978583196)
+node index is 400
+2018-02-16 14:52:38.381650: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0434756724184, max_diff:0.0893432802341, training_epochs:50, lr:0.0649350649351)
+node index is 392
+2018-02-16 14:52:38.904664: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00444225402039, max_diff:0.00448104107672, training_epochs:50, lr:0.064)
+node index is 376
+2018-02-16 14:52:39.449293: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0318960503795, max_diff:0.0506929504949, training_epochs:50, lr:0.0630914826498)
+node index is 362
+2018-02-16 14:52:40.007350: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0058648916985, max_diff:0.0058648916985, training_epochs:50, lr:0.0622083981337)
+node index is 342
+2018-02-16 14:52:40.605660: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:6.36787213669, max_diff:14.8297086558, training_epochs:50, lr:0.0613496932515)
+node index is 324
+2018-02-16 14:52:41.214014: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.162695722568, max_diff:0.337030816863, training_epochs:50, lr:0.0605143721634)
+node index is 308
+2018-02-16 14:52:41.859041: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:4.01571737602, max_diff:12.7862857668, training_epochs:50, lr:0.0597014925373)
+node index is 290
+2018-02-16 14:52:42.477462: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.758577770141, max_diff:2.7118551843, training_epochs:50, lr:0.0589101620029)
+node index is 270
+2018-02-16 14:52:43.110979: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0266738098, max_diff:0.136059846317, training_epochs:50, lr:0.0630914826498)
+node index is 364
+2018-02-16 14:52:43.765078: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0402580919314, max_diff:0.0632658540495, training_epochs:50, lr:0.0622083981337)
+node index is 344
+2018-02-16 14:52:44.434757: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0347910959143, max_diff:0.0653412442449, training_epochs:50, lr:0.0613496932515)
+node index is 326
+2018-02-16 14:52:45.158915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.031481543284, max_diff:0.0326884672596, training_epochs:50, lr:0.0605143721634)
+node index is 310
+2018-02-16 14:52:45.850138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0257203135522, max_diff:0.0555348963571, training_epochs:50, lr:0.0597014925373)
+node index is 292
+2018-02-16 14:52:46.606398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0296653148384, max_diff:0.10267915693, training_epochs:50, lr:0.0589101620029)
+node index is 272
+2018-02-16 14:52:47.360305: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0536624528587, max_diff:0.0741801772348, training_epochs:50, lr:0.0581395348837)
+node index is 256
+2018-02-16 14:52:48.134777: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.042534658945, max_diff:0.150883882679, training_epochs:50, lr:0.0573888091822)
+node index is 236
+2018-02-16 14:52:49.006061: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0244066085695, max_diff:0.0281897556993, training_epochs:50, lr:0.056657223796)
+node index is 222
+2018-02-16 14:52:49.831332: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0362078980176, max_diff:0.0614646995679, training_epochs:50, lr:0.0559440559441)
+node index is 210
+2018-02-16 14:52:50.672411: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0444646302758, max_diff:0.181467742773, training_epochs:50, lr:0.0539779005525)
+node index is 196
+2018-02-16 14:52:51.634159: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0720299445223, max_diff:0.227892161323, training_epochs:75, lr:0.0520888949523)
+node index is 180
+2018-02-16 14:52:53.056573: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.145867324903, max_diff:0.350610579803, training_epochs:50, lr:0.0539083557951)
+node index is 164
+2018-02-16 14:52:53.895736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:2.54812144939, max_diff:11.7468392968, training_epochs:50, lr:0.0532623169108)
+node index is 146
+2018-02-16 14:52:54.776991: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0151921011056, max_diff:0.026561719946, training_epochs:50, lr:0.056657223796)
+node index is 224
+2018-02-16 14:52:55.694639: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00168820036729, max_diff:0.00264781193277, training_epochs:50, lr:0.0559440559441)
+node index is 212
+2018-02-16 14:52:56.640093: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0382807422345, max_diff:0.100493705406, training_epochs:50, lr:0.0552486187845)
+node index is 198
+2018-02-16 14:52:57.479970: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.014794977575, max_diff:0.0459842089175, training_epochs:50, lr:0.0545702592087)
+node index is 182
+2018-02-16 14:52:58.517399: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0403874997341, max_diff:0.19036602739, training_epochs:50, lr:0.0539083557951)
+node index is 166
+2018-02-16 14:52:59.655439: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00629642078058, max_diff:0.0151133173745, training_epochs:50, lr:0.0532623169108)
+node index is 148
+2018-02-16 14:53:00.590657: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0565745835656, max_diff:0.254334142388, training_epochs:50, lr:0.0514210526316)
+node index is 128
+2018-02-16 14:53:01.773892: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0495990430888, max_diff:0.209223149031, training_epochs:50, lr:0.0508192457737)
+node index is 114
+2018-02-16 14:53:02.994838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0387731233051, max_diff:0.1012226482, training_epochs:50, lr:0.0514138817481)
+node index is 98
+2018-02-16 14:53:03.992094: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0497524006166, max_diff:0.162308090011, training_epochs:59, lr:0.0496569250318)
+node index is 86
+2018-02-16 14:53:05.309732: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0541613220886, max_diff:0.198291905556, training_epochs:84, lr:0.047966281407)
+node index is 72
+2018-02-16 14:53:07.099851: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0949074806802, max_diff:0.267849880953, training_epochs:104, lr:0.0463391221366)
+node index is 60
+variance test passed, diff=0.0370278990977, d = 0, back=0
+Will be split, p=0.0370278990977, d=position, back=0
+2018-02-16 14:53:09.356846: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.109056442821, max_diff:0.251658476591, training_epochs:100, lr:0.0912053626406)
+node index is 551
+2018-02-16 14:53:11.498582: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0219544328493, max_diff:0.0322974855957, training_epochs:50, lr:0.0977995110024)
+node index is 552
+2018-02-16 14:53:12.597008: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.100212217039, max_diff:0.279154630681, training_epochs:103, lr:0.0892416108134)
+node index is 545
+2018-02-16 14:53:14.802539: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0115921371791, max_diff:0.0159926720653, training_epochs:50, lr:0.0956937799043)
+node index is 546
+2018-02-16 14:53:15.901927: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0259990717545, max_diff:0.0456508079435, training_epochs:50, lr:0.0898876404494)
+node index is 530
+2018-02-16 14:53:16.994247: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0161893060625, max_diff:0.0218576160705, training_epochs:50, lr:0.0881057268722)
+node index is 524
+2018-02-16 14:53:18.195247: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00242740141507, max_diff:0.00434978108503, training_epochs:50, lr:0.0863930885529)
+node index is 518
+2018-02-16 14:53:19.353572: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.034333284894, max_diff:0.0755929965663, training_epochs:50, lr:0.0847457627119)
+node index is 514
+2018-02-16 14:53:20.536413: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.124989614332, max_diff:0.262316516041, training_epochs:90, lr:0.0453256297934)
+node index is 36
+2018-02-16 14:53:22.604485: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0595308544697, max_diff:0.184966195662, training_epochs:134, lr:0.0717421741607)
+node index is 495
+2018-02-16 14:53:25.780977: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0678230599115, max_diff:0.192283314106, training_epochs:50, lr:0.0769291338583)
+node index is 496
+2018-02-16 14:53:27.178916: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0506382127752, max_diff:0.0531771002646, training_epochs:50, lr:0.0735294117647)
+node index is 474
+2018-02-16 14:53:28.359017: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0374242938227, max_diff:0.0406214798132, training_epochs:50, lr:0.0723327305606)
+node index is 466
+2018-02-16 14:53:29.593713: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:2.10631239196, max_diff:4.36821727736, training_epochs:50, lr:0.0711743772242)
+node index is 460
+2018-02-16 14:53:30.850439: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00390690987907, max_diff:0.00594371555347, training_epochs:50, lr:0.0700525394046)
+node index is 446
+2018-02-16 14:53:32.145058: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.000153054228349, max_diff:0.000153054228349, training_epochs:50, lr:0.0689655172414)
+node index is 436
+2018-02-16 14:53:33.501787: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0579528620258, max_diff:0.078291123002, training_epochs:50, lr:0.066889632107)
+node index is 416
+2018-02-16 14:53:34.805491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.423019894713, max_diff:0.62722922615, training_epochs:50, lr:0.0658978583196)
+node index is 402
+2018-02-16 14:53:36.144596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.5814506113, max_diff:1.45560233513, training_epochs:50, lr:0.064)
+node index is 380
+2018-02-16 14:53:37.546013: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.22739046822, max_diff:0.228087772137, training_epochs:50, lr:0.0630914826498)
+node index is 366
+2018-02-16 14:53:38.881278: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.92394167786, max_diff:3.39184403854, training_epochs:50, lr:0.0622083981337)
+node index is 346
+2018-02-16 14:53:40.294499: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0094141111648, max_diff:0.0159289710161, training_epochs:50, lr:0.0581395348837)
+node index is 258
+2018-02-16 14:53:41.730128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0499968184026, max_diff:0.106245979203, training_epochs:50, lr:0.0573888091822)
+node index is 240
+2018-02-16 14:53:43.239854: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0542524399063, max_diff:0.0938434539488, training_epochs:50, lr:0.0559440559441)
+node index is 214
+2018-02-16 14:53:44.679736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.227170558276, max_diff:0.455204945564, training_epochs:50, lr:0.0552486187845)
+node index is 200
+2018-02-16 14:53:46.118550: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0970466523058, max_diff:0.400584001203, training_epochs:50, lr:0.0533151432469)
+node index is 184
+2018-02-16 14:53:47.754209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0909302218335, max_diff:0.247062171545, training_epochs:50, lr:0.0526684636119)
+node index is 168
+2018-02-16 14:53:49.385683: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0602016026508, max_diff:0.249139998143, training_epochs:50, lr:0.0520372836218)
+node index is 150
+2018-02-16 14:53:51.086070: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0424476988196, max_diff:0.119090202153, training_epochs:50, lr:0.0514210526316)
+node index is 130
+2018-02-16 14:53:52.713460: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0484948683813, max_diff:0.228665702452, training_epochs:50, lr:0.0508192457737)
+node index is 116
+2018-02-16 14:53:54.459822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0816615338252, max_diff:0.225777942834, training_epochs:50, lr:0.0502313624679)
+node index is 100
+2018-02-16 14:53:56.312101: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0888511097835, max_diff:0.414762715171, training_epochs:50, lr:0.0496569250318)
+node index is 88
+2018-02-16 14:53:58.322721: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.111176861727, max_diff:0.488737029816, training_epochs:56, lr:0.0490954773869)
+node index is 74
+2018-02-16 14:54:00.190409: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0558442689473, max_diff:0.185130774399, training_epochs:60, lr:0.0474300124224)
+node index is 62
+2018-02-16 14:54:02.256709: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.320082913024, max_diff:0.923559218209, training_epochs:100, lr:0.0892416108134)
+node index is 547
+2018-02-16 14:54:05.059742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0216688471197, max_diff:0.0220299652132, training_epochs:50, lr:0.0956937799043)
+node index is 548
+2018-02-16 14:54:06.731425: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.125187033713, max_diff:0.268381597407, training_epochs:50, lr:0.0936768149883)
+node index is 542
+2018-02-16 14:54:08.415152: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.041926736528, max_diff:0.0624349291745, training_epochs:50, lr:0.0917431192661)
+node index is 536
+2018-02-16 14:54:10.115792: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0521337224128, max_diff:0.139077459527, training_epochs:50, lr:0.0863930885529)
+node index is 520
+2018-02-16 14:54:11.853136: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.308413973526, max_diff:1.55312148382, training_epochs:57, lr:0.0474848116646)
+node index is 38
+2018-02-16 14:54:13.901255: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.118645304215, max_diff:0.243620654864, training_epochs:50, lr:0.0711743772242)
+node index is 462
+2018-02-16 14:54:15.695116: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.245161619328, max_diff:0.428793691566, training_epochs:50, lr:0.0700525394046)
+node index is 448
+2018-02-16 14:54:17.417251: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.10908970243, max_diff:0.253903371445, training_epochs:50, lr:0.0689655172414)
+node index is 438
+2018-02-16 14:54:19.235497: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.1870730076, max_diff:0.349533783019, training_epochs:50, lr:0.0679117147708)
+node index is 428
+2018-02-16 14:54:21.112622: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.439220651819, max_diff:1.42823904858, training_epochs:50, lr:0.066889632107)
+node index is 418
+2018-02-16 14:54:22.901794: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.356565205533, max_diff:0.998955238315, training_epochs:50, lr:0.0658978583196)
+node index is 404
+2018-02-16 14:54:24.749473: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.00378784239135, max_diff:0.00378784239135, training_epochs:50, lr:0.0649350649351)
+node index is 394
+2018-02-16 14:54:26.575525: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.208117958788, max_diff:0.405920159982, training_epochs:50, lr:0.064)
+node index is 382
+2018-02-16 14:54:28.583147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.349867727991, max_diff:0.823246254487, training_epochs:50, lr:0.0622083981337)
+node index is 348
+2018-02-16 14:54:30.524165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.125000697117, max_diff:0.234923433034, training_epochs:50, lr:0.0613496932515)
+node index is 328
+2018-02-16 14:54:32.420257: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.241011497595, max_diff:0.463931400155, training_epochs:50, lr:0.0605143721634)
+node index is 312
+2018-02-16 14:54:34.446624: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.17539730259, max_diff:2.83995014556, training_epochs:50, lr:0.0597014925373)
+node index is 294
+2018-02-16 14:54:36.441377: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.367484602566, max_diff:2.17528283858, training_epochs:50, lr:0.0589101620029)
+node index is 276
+2018-02-16 14:54:38.493524: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.191797824842, max_diff:0.325487690735, training_epochs:50, lr:0.0581395348837)
+node index is 260
+2018-02-16 14:54:40.507108: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.0508880290571, max_diff:0.0824177412424, training_epochs:50, lr:0.0573888091822)
+node index is 242
+2018-02-16 14:54:42.605857: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.9594264101, max_diff:3.75924017394, training_epochs:50, lr:0.0649350649351)
+node index is 396
+2018-02-16 14:54:44.848434: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.177098520679, max_diff:0.340358205013, training_epochs:50, lr:0.064)
+node index is 384
+2018-02-16 14:54:46.887197: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.3053511181, max_diff:1.95687395555, training_epochs:50, lr:0.0630914826498)
+node index is 368
+2018-02-16 14:54:48.966452: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.889177642779, max_diff:2.19709804427, training_epochs:50, lr:0.0622083981337)
+node index is 350
+2018-02-16 14:54:51.034888: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.65566014713, max_diff:3.85394709216, training_epochs:50, lr:0.0613496932515)
+node index is 330
+2018-02-16 14:54:53.168925: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.93156231385, max_diff:5.1620914603, training_epochs:50, lr:0.0605143721634)
+node index is 314
+2018-02-16 14:54:55.298487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.55991832558, max_diff:4.21909278021, training_epochs:50, lr:0.0597014925373)
+node index is 296
+2018-02-16 14:54:57.473553: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.41793776893, max_diff:3.93958914677, training_epochs:50, lr:0.0589101620029)
+node index is 278
+2018-02-16 14:54:59.739713: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:2.29922045515, max_diff:4.60876556953, training_epochs:50, lr:0.0581395348837)
+node index is 262
+2018-02-16 14:55:01.980220: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.75215295826, max_diff:3.60772857803, training_epochs:50, lr:0.0573888091822)
+node index is 244
+2018-02-16 14:55:04.189470: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.75194920365, max_diff:3.76241256969, training_epochs:50, lr:0.056657223796)
+node index is 226
+2018-02-16 14:55:06.440679: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:2.27292789184, max_diff:6.92010595206, training_epochs:50, lr:0.0559440559441)
+node index is 216
+2018-02-16 14:55:08.662916: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:2.93710158979, max_diff:6.04578373394, training_epochs:50, lr:0.0552486187845)
+node index is 202
+2018-02-16 14:55:10.876727: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:2.79780665399, max_diff:6.62115494788, training_epochs:50, lr:0.0545702592087)
+node index is 186
+2018-02-16 14:55:13.252201: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.53095886907, max_diff:2.89367933044, training_epochs:50, lr:0.0539083557951)
+node index is 170
+2018-02-16 14:55:15.583652: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.223365988778, max_diff:0.329091926502, training_epochs:50, lr:0.0532623169108)
+node index is 152
+2018-02-16 14:55:17.850780: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.750799478582, max_diff:2.86523252604, training_epochs:50, lr:0.0514210526316)
+node index is 132
+2018-02-16 14:55:20.849737: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.605714550052, max_diff:2.76583781501, training_epochs:50, lr:0.0545702592087)
+node index is 188
+2018-02-16 14:55:23.403554: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.233511429918, max_diff:0.722562005563, training_epochs:50, lr:0.0526684636119)
+node index is 172
+2018-02-16 14:55:26.336822: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.726226306289, max_diff:1.89744571951, training_epochs:50, lr:0.0532623169108)
+node index is 154
+2018-02-16 14:55:28.937240: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.115218119672, max_diff:0.459299000353, training_epochs:50, lr:0.0526315789474)
+node index is 134
+2018-02-16 14:55:31.400891: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.324278595773, max_diff:1.36638788025, training_epochs:50, lr:0.0520156046814)
+node index is 118
+2018-02-16 14:55:33.861402: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.798509188286, max_diff:2.15037287796, training_epochs:50, lr:0.0514138817481)
+node index is 102
+2018-02-16 14:55:36.403121: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.65299862042, max_diff:3.02814448502, training_epochs:58, lr:0.0496569250318)
+node index is 90
+2018-02-16 14:55:39.268987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.599347819857, max_diff:0.90543627438, training_epochs:50, lr:0.0502512562814)
+node index is 78
+2018-02-16 14:55:41.964548: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.344058256989, max_diff:1.53997109832, training_epochs:76, lr:0.047966281407)
+node index is 76
+2018-02-16 14:55:45.150516: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.712276842658, max_diff:4.80396018549, training_epochs:50, lr:0.0485465838509)
+node index is 64
+2018-02-16 14:55:47.839930: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.998184105345, max_diff:5.84943990172, training_epochs:59, lr:0.0480098280098)
+node index is 52
+2018-02-16 14:55:50.846920: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.752155263955, max_diff:7.12714095339, training_epochs:91, lr:0.0453256297934)
+node index is 40
+2018-02-16 14:55:54.502180: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.142961313005, max_diff:0.416150823385, training_epochs:50, lr:0.066889632107)
+node index is 420
+2018-02-16 14:55:56.997995: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)

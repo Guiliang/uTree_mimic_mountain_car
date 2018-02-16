@@ -1,0 +1,45 @@
+/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+reading from /Local-Scratch/UTree model/mountaincar/model_boost_linear_qsplit_noabs_save_linear_epoch_decay_lr/, starting at 2
+=============== update starts ===============
+2018-02-14 14:42:49.584000: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-02-14 14:42:49.730133: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:01:00.0
+totalMemory: 11.90GiB freeMemory: 10.24GiB
+2018-02-14 14:42:49.730167: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.90652707739, max_diff:17.2108119569, training_epochs:159, lr:0.0851837055281)
+node index is 7
+variance test passed, diff=9.36384597566, d = 0, back=0
+Will be split, p=9.36384597566, d=position, back=0
+2018-02-14 14:42:53.199053: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.17207046365, max_diff:11.1093103225, training_epochs:100, lr:0.0912053626406)
+node index is 11
+2018-02-14 14:42:54.607302: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:1.87951389353, max_diff:16.0428843139, training_epochs:59, lr:0.0955501222494)
+node index is 12
+2018-02-14 14:42:55.105996: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:0.815622535788, max_diff:2.01483463002, training_epochs:55, lr:0.0934928229665)
+node index is 8
+2018-02-14 14:42:55.593030: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:5.33559546777, max_diff:9.86475451622, training_epochs:50, lr:0.0936768149883)
+node index is 5
+2018-02-14 14:42:55.874474: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:3.47891374485, max_diff:18.082471649, training_epochs:151, lr:0.0851837055281)
+node index is 9
+variance test passed, diff=3.57571043237, d = 0, back=0
+variance test passed, diff=25.8502894089, d = 1, back=0
+Will be split, p=25.8502894089, d=velocity, back=0
+2018-02-14 14:42:59.104746: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:2.19616020173, max_diff:15.2874348678, training_epochs:100, lr:0.0912053626406)
+node index is 13
+2018-02-14 14:43:00.518367: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:3.11191438376, max_diff:7.51817402465, training_epochs:51, lr:0.0955501222494)
+node index is 14
+2018-02-14 14:43:01.016846: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: TITAN X (Pascal), pci bus id: 0000:01:00.0, compute capability: 6.1)
+(average_diff:3.05219135053, max_diff:4.27117620382, training_epochs:50, lr:0.0934928229665)
+node index is 10
+=============== update finished ===============
+
+*** Writing Game File 3***
+
