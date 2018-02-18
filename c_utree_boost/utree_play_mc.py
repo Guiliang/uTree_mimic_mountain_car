@@ -78,7 +78,7 @@ def test():
             observation = newObservation
             total_reward += reward
             count += 1
-            print('TRAIN: The episode ' + str(i) + ' lasted for ' + str(
+            print('U-tree: The episode ' + str(i) + ' lasted for ' + str(
                 count) + ' time steps' + ' with action ' + str(action))
 
 

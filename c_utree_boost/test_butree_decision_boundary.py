@@ -7,6 +7,8 @@ import seaborn as sns
 import linear_regression
 import Problem_moutaincar
 
+ACTION_LIST = [0, 1, 2]
+
 
 def save_decision_csv(decision_all):
     with open('./decision_all.csv', 'wb') as file:
@@ -19,7 +21,55 @@ def save_decision_csv(decision_all):
             file.write('\n')
 
 
-def generate_b_u_tree_decision(input_all):
+def generate_similar_b_u_tree_decision(input_all):
+    column_length = len(input_all[0])
+    row_length = len(input_all)
+    decision_all = np.full((row_length, column_length), np.inf)
+    train_game_number = 200
+    ice_hockey_problem = Problem_moutaincar.MoutainCar()
+    CUTreeAgent = Agent.CUTreeAgent(problem=ice_hockey_problem, max_hist=3000,
+                                    check_fringe_freq=1200, is_episodic=0, training_mode='_linear_epoch_decay_lr')
+    CUTreeAgent.read_Utree(game_number=train_game_number,
+                           save_path='/Local-Scratch/UTree model/mountaincar/model_boost_linear_qsplit_noabs_save_linear_epoch_decay_lr/')
+
+    for input_positions_index in range(0, len(input_all)):
+        input_positions = input_all[input_positions_index]
+
+        for input_observation_index in range(0, len(input_positions)):
+            input_observation = input_positions[input_observation_index]
+
+            min_mse = 999
+            action = None
+
+            for action_test in ACTION_LIST:
+                inst = C_UTree_boost_Galen.Instance(-1, input_observation, action_test, input_observation, None,
+                                                    None)  # leaf is located by the current observation
+                node = CUTreeAgent.utree.getAbsInstanceLeaf(inst)
+
+                for instance in node.instances:
+                    instance_observation = instance.currentObs
+                    mse = compute_mse(np.asarray(input_observation), np.asarray(instance_observation))
+                    # mse = ((np.asarray(input_observation) - np.asarray(instance_observation)) ** 2).mean()
+                    if mse < min_mse:
+                        min_mse = mse
+                        Q_value = instance.qValue
+                        action = action_test
+
+            decision_all[input_positions_index, input_observation_index] = action
+
+    return decision_all
+
+
+def compute_mse(input_observation, instance_observation, scale_number=12.85):
+    input_observation[1] = input_observation[1] * scale_number
+    instance_observation[1] = instance_observation[1] * scale_number
+
+    mse = ((np.asarray(input_observation) - np.asarray(instance_observation)) ** 2).mean()
+
+    return mse
+
+
+def generate_linear_b_u_tree_decision(input_all):
     game_testing_record_dict = {}
     train_game_number = 200
     ice_hockey_problem = Problem_moutaincar.MoutainCar()
@@ -73,6 +123,23 @@ def generate_b_u_tree_decision(input_all):
         actions = node_record[:, 1]
         index_numbers = node_record[:, 2]
 
+        # for i in range(0, len(index_numbers)):
+        #     min_mse = 999999
+        #
+        #     currentObs = currentObs_node[i]
+        #     for instance in node.instances:
+        #         instance_observation = instance.currentObs
+        #         mse = ((np.asarray(currentObs) - np.asarray(instance_observation)) ** 2).mean()
+        #         if mse < min_mse:
+        #             min_mse = mse
+        #             Q_value = instance.qValue
+        #
+        #     if index_qvalue_record.get(index_numbers[i]) is not None:
+        #         index_record_dict = index_qvalue_record.get(index_numbers[i])
+        #         index_record_dict.update({actions[i]: Q_value})
+        #     else:
+        #         index_qvalue_record.update({index_numbers[i]: {actions[i]: Q_value}})
+
         sess = tf.Session()
         LR = linear_regression.LinearRegression()
         LR.read_weights(weights=node.weight, bias=node.bias)
@@ -103,7 +170,7 @@ def generate_b_u_tree_decision(input_all):
         row_number = i / column_length
         column_number = i % column_length
 
-        decision_all[row_number, column_number] = max(qValues)
+        decision_all[row_number, column_number] = max_action
 
     return decision_all
 
@@ -112,7 +179,7 @@ def generate_data():
     position_interval = [-1.2, 0.6]
     velocity_interval = [-0.07, 0.07]
     position_all = np.arange(position_interval[0], position_interval[1], 0.01)
-    velocity_all = np.arange(velocity_interval[0], velocity_interval[1], 0.01)
+    velocity_all = np.arange(velocity_interval[0], velocity_interval[1], 0.001)
 
     input_all = []
 
@@ -139,6 +206,6 @@ def visualize_decision(decision_all):
 
 if __name__ == "__main__":
     input_all = generate_data()
-    decision_all = generate_b_u_tree_decision(input_all)
+    decision_all = generate_similar_b_u_tree_decision(input_all)
     # save_decision_csv(decision_all=decision_all)
     visualize_decision(decision_all)
