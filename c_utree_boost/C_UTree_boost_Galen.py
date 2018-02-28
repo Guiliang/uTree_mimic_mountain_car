@@ -807,8 +807,8 @@ class CUTree:
                 sess = tf.InteractiveSession(config=config)
                 if self.training_mode == '_epoch_linear':
                     training_epochs = len(node.instances)
-                    if self.game_number > 50:
-                        training_epochs = training_epochs * 5
+                    # if self.game_number > 50:
+                    #     training_epochs = training_epochs * 5
                     LR = linear_regression.LinearRegression(training_epochs=training_epochs)
                 elif self.training_mode == '_linear_epoch_decay_lr':
                     node.update_times += 1

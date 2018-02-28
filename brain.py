@@ -1,5 +1,7 @@
 import csv
 
+import scipy as sp
+import scipy.stats
 import tensorflow as tf
 import gym
 import numpy as np
@@ -160,13 +162,14 @@ class Agent:
     def test(self):
 
         self.model.read_model()
-        test_epsilon = 0.3
+        test_epsilon = 0.1
 
-        for i in range(1001):
+        for i in range(100):
             observation = self.env.reset()
             done = False
             count = 0
             total_reward = 0
+            total_reward_list = []
 
             record_transition = []
 
@@ -197,9 +200,11 @@ class Agent:
             print('TRAIN: The episode ' + str(i) + ' lasted for ' + str(
                 count) + ' time steps with epsilon ' + str(test_epsilon))
 
-            self.save_csv_all_correlations(record_transition,
-                                           './save_all_transition_e{1}/record_moutaincar_transition_game{0}.csv'.format(
-                                               int(i), str(test_epsilon)))
+            self.mean_confidence_interval(total_reward_list)
+
+            # self.save_csv_all_correlations(record_transition,
+            #                                './save_all_transition_e{1}/record_moutaincar_transition_game{0}.csv'.format(
+            #                                    int(i), str(test_epsilon)))
 
     def save_csv_all_correlations(self, record_transition, csv_name):
         with open(csv_name, 'a') as csvfile:
@@ -208,6 +213,13 @@ class Agent:
 
             for row_dict in record_transition:
                 writer.writerow(row_dict)
+
+    def mean_confidence_interval(self, data, confidence=0.95):
+        a = 1.0 * np.array(data)
+        n = len(a)
+        m, se = np.mean(a), scipy.stats.sem(a)
+        h = se * sp.stats.t._ppf((1 + confidence) / 2., n - 1)
+        return m, h
 
 
 if __name__ == "__main__":

@@ -223,7 +223,7 @@ class CUTreeAgent:
 
         return zip(q_home.tolist(), q_away.tolist(), q_end.tolist())
 
-    def boost_tree_testing_performance(self, save_path, read_game_number, save_correlation_dir, save_mse_dir):
+    def boost_tree_testing_performance(self, save_path, read_game_number, save_correlation_dir, save_mse_dir, save_mae_dir):
         print >> sys.stderr, 'starting from {0}'.format(read_game_number)
         self.utree = pickle.load(open(save_path + 'pickle_Game_File_' + str(read_game_number) + '.p', 'rb'))
         print >> sys.stderr, 'finishing read tree'
@@ -231,7 +231,7 @@ class CUTreeAgent:
 
         game_testing_record_dict = {}
 
-        game_to_print_list = range(901, 1001)
+        game_to_print_list = range(801, 901)
         for game_number in game_to_print_list:
 
             game_record = self.read_csv_game_record(
@@ -296,10 +296,11 @@ class CUTreeAgent:
             merge_q += merge_append_q
 
         self.compute_correlation(all_q_values_record, save_correlation_dir)
+        self.compute_mae(all_q_values_record, save_mae_dir)
         self.compute_mse(all_q_values_record, save_mse_dir)
 
     def merge_oracle_linear_q(self, test_qs, linear_qs, oracle_qs):
-        criteria = 0.15
+        criteria = 0.7
         merge_qs = []
         for index in range(0, len(test_qs)):
             if abs(test_qs[index] - linear_qs[index]) > criteria:
@@ -339,10 +340,34 @@ class CUTreeAgent:
         text_file.write('\n')
         text_file.close()
 
+    def compute_mae(self, all_q_values_record, save_mae_dir):
+        linear_mse = self.mean_abs_error(all_q_values_record.get('output_q'),
+                                         all_q_values_record.get('test_q'))
+
+        oracle_mse = self.mean_abs_error(all_q_values_record.get('oracle_q'),
+                                         all_q_values_record.get('test_q'))
+
+        merge_mse = self.mean_abs_error(all_q_values_record.get('merge_q'),
+                                        all_q_values_record.get('test_q'))
+
+        text_file = open("./" + save_mae_dir, "a")
+
+        text_file.write('{home_linear_mse: ' + str(linear_mse) + '}\n')
+        text_file.write('{home_oracle_mse: ' + str(oracle_mse) + '}\n')
+        text_file.write('{home_merge_mse: ' + str(merge_mse) + '}\n')
+        text_file.write('\n')
+        text_file.close()
+
     def mean_square_error(self, test_qs, target_qs):
         sse = 0
         for index in range(0, len(test_qs)):
             sse += (float(test_qs[index]) - float(target_qs[index])) ** 2
+        return sse / len(test_qs)
+
+    def mean_abs_error(self, test_qs, target_qs):
+        sse = 0
+        for index in range(0, len(test_qs)):
+            sse += abs(float(test_qs[index]) - float(target_qs[index]))
         return sse / len(test_qs)
 
     # def boosting_tree_print_event_values(self, save_path, read_game_number):

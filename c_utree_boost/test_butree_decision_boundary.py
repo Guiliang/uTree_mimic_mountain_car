@@ -39,7 +39,10 @@ def generate_similar_b_u_tree_decision(input_all):
             input_observation = input_positions[input_observation_index]
 
             min_mse = 999
+            mse_criterion = 0.2
             action = None
+            top_actions = []
+            Q_value = 0
 
             for action_test in ACTION_LIST:
                 inst = C_UTree_boost_Galen.Instance(-1, input_observation, action_test, input_observation, None,
@@ -54,8 +57,19 @@ def generate_similar_b_u_tree_decision(input_all):
                         min_mse = mse
                         Q_value = instance.qValue
                         action = action_test
+                    if mse < mse_criterion:
+                        top_actions.append(action_test)
 
-            decision_all[input_positions_index, input_observation_index] = action
+                # if len(top_actions) >= 3:
+                #     done = True
+                #     a = np.asarray(top_actions)
+                #     counts = np.bincount(a)
+                #     action_most = np.argmax(counts)
+                #     # if action != action_most:
+                #     # print 'catch you'
+                #     action = action_most
+
+            decision_all[input_positions_index, input_observation_index] = Q_value
 
     return decision_all
 
