@@ -23,6 +23,7 @@ AbsorbAction = 5
 HOME = 0
 AWAY = 1
 MAX_DEPTH = 20
+FEATURE_NAME_DICT = {'position': 0, 'velocity': 1}
 
 
 class CUTree:
@@ -572,9 +573,9 @@ class CUTree:
         :return: how many real splits it takes
         """
 
-        # if self.hard_code_flag:
-        #     result_flag = self.hard_code_split()
-        #     self.hard_code_flag = result_flag
+        if self.hard_code_flag:
+            result_flag = self.hard_code_split()
+            self.hard_code_flag = result_flag
 
         return self.testFringeRecursive(self.root)
 
@@ -595,9 +596,9 @@ class CUTree:
             d = self.getUtileDistinction(node)
             if d:
                 self.split(node, d)
-                if self.hard_code_flag:
-                    result_flag = self.hard_code_split()
-                    self.hard_code_flag = result_flag
+                # if self.hard_code_flag:
+                #     result_flag = self.hard_code_split()
+                #     self.hard_code_flag = result_flag
 
                 return 1 + self.testFringeRecursive(node)
             return 0
@@ -761,6 +762,52 @@ class CUTree:
 
         return abs(var_a / len(listA) - var_b / len(listB))
 
+    def insertTestInstances(self, inst, qValue, ntype=NodeLeaf):
+        node = self.root
+
+        while node.nodeType != ntype:
+            child = node.applyInstanceDistinction(inst)
+            node.instances.append(qValue)
+            node = node.children[child]
+
+        if isinstance(node.instances[0], float):
+            node.instances.append(qValue)
+        else:
+            node.instances = [qValue]
+
+    def recursive_calculate_feature_importance(self, node):
+        count = 0
+        if node.nodeType != NodeLeaf:
+            dimension_name = node.distinction.dimension_name
+            parent_q_var = np.var(node.instances)
+            sum_child_weighted_var = 0
+            parent_instance_length = float(len(node.instances))
+            for c in node.children:
+                if len(c.instances) > 1 and isinstance(c.instances[1], float):
+                    # try:
+                    child_q_var = np.var(c.instances)
+                    # except:
+                    #     print 'catch you'
+                    sum_child_weighted_var += child_q_var * (len(c.instances) / parent_instance_length)
+
+            weight_sum = 0
+            for weight_array in node.weight:
+                weight_sum += abs(float(weight_array[0]))
+
+            if dimension_name == 'actions':
+                amplify_rate = 1
+            else:
+                amplify_rate = (1 + abs(node.weight[FEATURE_NAME_DICT.get(dimension_name)][0]) / weight_sum)
+
+            feature_influence = amplify_rate * (parent_q_var - sum_child_weighted_var)
+            feature_influence_sum = self.feature_influence_dict.get(dimension_name) + feature_influence
+            self.feature_influence_dict.update({dimension_name: feature_influence_sum})
+
+            for c in node.children:
+                count += self.recursive_calculate_feature_importance(c)
+
+        return 1 + count
+
     def getQs(self, node):
         """
         Get all expected future discounted returns for all instances in a node
@@ -774,12 +821,12 @@ class CUTree:
     def hard_code_split(self):
         root = self.root
         if len(root.children) == 0 and len(self.history) >= 100:
-            print "\nHard Coding\n"
+            print >> sys.stderr, "\nHard Coding\n"
             d = Distinction(dimension=-1, back_idx=0, dimension_name='actions')
             self.split(root, d)
             return True
         elif len(root.children) == 13:
-            print "\nHard Coding\n"
+            print >> sys.stderr, "\nHard Coding\n"
             d = Distinction(dimension=9, back_idx=0, dimension_name=self.dim_names[9], iscontinuous=True,
                             continuous_divide_value=float(0))  # 0 is good enough
             self.split(root.children[5], d)
@@ -829,7 +876,8 @@ class CUTree:
                 else:
                     LR.read_weights(node.weight, node.bias)
                 LR.linear_regression_model()
-                trained_weights, trained_bias, average_diff = LR.gradient_descent(sess=sess, train_X=train_x, train_Y=train_y)
+                trained_weights, trained_bias, average_diff = LR.gradient_descent(sess=sess, train_X=train_x,
+                                                                                  train_Y=train_y)
                 print >> sys.stderr, 'node index is {0}'.format(node.idx)
                 LR.delete_para()
                 node.weight = None

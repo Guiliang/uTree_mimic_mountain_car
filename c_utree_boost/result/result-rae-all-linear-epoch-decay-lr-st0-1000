@@ -1,0 +1,800 @@
+{home_linear_rae: 0.7593319228710671}
+{home_oracle_rae: 0.9107729677322508}
+{home_merge_rae: 0.8942001563271218}
+
+{home_linear_rae: 0.48874997660999414}
+{home_oracle_rae: 0.7650535932916317}
+{home_merge_rae: 0.6966021528819801}
+
+{home_linear_rae: 0.36874544488772665}
+{home_oracle_rae: 0.5802100683547325}
+{home_merge_rae: 0.49532435060044105}
+
+{home_linear_rae: 0.3238619401281248}
+{home_oracle_rae: 0.5227370277193284}
+{home_merge_rae: 0.4452020341017301}
+
+{home_linear_rae: 0.3038516366278436}
+{home_oracle_rae: 0.5009945103667087}
+{home_merge_rae: 0.419925457665684}
+
+{home_linear_rae: 0.2795909215314955}
+{home_oracle_rae: 0.48675413741807744}
+{home_merge_rae: 0.3863801169113425}
+
+{home_linear_rae: 0.26044497527471}
+{home_oracle_rae: 0.4669103931639989}
+{home_merge_rae: 0.36010365330676625}
+
+{home_linear_rae: 0.24039473337834485}
+{home_oracle_rae: 0.4371705965922674}
+{home_merge_rae: 0.33536470980532135}
+
+{home_linear_rae: 0.22574084907919031}
+{home_oracle_rae: 0.4191015597790575}
+{home_merge_rae: 0.316853037694909}
+
+{home_linear_rae: 0.2179667378648162}
+{home_oracle_rae: 0.39656530068324214}
+{home_merge_rae: 0.3086744138581132}
+
+{home_linear_rae: 0.20843792036130443}
+{home_oracle_rae: 0.38952547635221674}
+{home_merge_rae: 0.29757029602303925}
+
+{home_linear_rae: 0.2034537787284916}
+{home_oracle_rae: 0.3763330353162994}
+{home_merge_rae: 0.28307588986802734}
+
+{home_linear_rae: 0.19790862957855906}
+{home_oracle_rae: 0.3719093714498165}
+{home_merge_rae: 0.27499513373682966}
+
+{home_linear_rae: 0.19130964326077105}
+{home_oracle_rae: 0.35528921791962825}
+{home_merge_rae: 0.26157249812121874}
+
+{home_linear_rae: 0.17760204555905146}
+{home_oracle_rae: 0.33973565125822663}
+{home_merge_rae: 0.2378915468096328}
+
+{home_linear_rae: 0.16803444396047762}
+{home_oracle_rae: 0.33158857414750903}
+{home_merge_rae: 0.22950634947733312}
+
+{home_linear_rae: 0.15388644045968422}
+{home_oracle_rae: 0.31555710915010654}
+{home_merge_rae: 0.21826780545646493}
+
+{home_linear_rae: 0.14672007850920363}
+{home_oracle_rae: 0.3049247975030291}
+{home_merge_rae: 0.20814932243163634}
+
+{home_linear_rae: 0.13947725120815133}
+{home_oracle_rae: 0.2997520401427575}
+{home_merge_rae: 0.20208308778356784}
+
+{home_linear_rae: 0.13205944191957644}
+{home_oracle_rae: 0.2955515261569301}
+{home_merge_rae: 0.19539987329353906}
+
+{home_linear_rae: 0.12615089163433735}
+{home_oracle_rae: 0.28974246353575833}
+{home_merge_rae: 0.189753687731944}
+
+{home_linear_rae: 0.12127444160342282}
+{home_oracle_rae: 0.27867947822634836}
+{home_merge_rae: 0.18081455195127047}
+
+{home_linear_rae: 0.11687449325790109}
+{home_oracle_rae: 0.2657776241450773}
+{home_merge_rae: 0.16999165123923757}
+
+{home_linear_rae: 0.11457898035580395}
+{home_oracle_rae: 0.2607704287697874}
+{home_merge_rae: 0.1646622687278493}
+
+{home_linear_rae: 0.11099642116810722}
+{home_oracle_rae: 0.258037005678338}
+{home_merge_rae: 0.16156773061322643}
+
+{home_linear_rae: 0.10761541198701478}
+{home_oracle_rae: 0.25523156268071995}
+{home_merge_rae: 0.15605673696634026}
+
+{home_linear_rae: 0.10530392424087913}
+{home_oracle_rae: 0.24874458124813145}
+{home_merge_rae: 0.15163756864753036}
+
+{home_linear_rae: 0.106498444600121}
+{home_oracle_rae: 0.24754175901780534}
+{home_merge_rae: 0.15297483331545908}
+
+{home_linear_rae: 0.1052932537067996}
+{home_oracle_rae: 0.24583287671103288}
+{home_merge_rae: 0.14990557942249835}
+
+{home_linear_rae: 0.10450184570243724}
+{home_oracle_rae: 0.2462826715575685}
+{home_merge_rae: 0.14962471576199224}
+
+{home_linear_rae: 0.10369995260125102}
+{home_oracle_rae: 0.24411505305688197}
+{home_merge_rae: 0.1474149826517544}
+
+{home_linear_rae: 0.10245380578829846}
+{home_oracle_rae: 0.24083982185359964}
+{home_merge_rae: 0.1457668337256084}
+
+{home_linear_rae: 0.1018921528315327}
+{home_oracle_rae: 0.23846924079110168}
+{home_merge_rae: 0.14344161045050385}
+
+{home_linear_rae: 0.10247620515065912}
+{home_oracle_rae: 0.2376886332089649}
+{home_merge_rae: 0.14428967028307357}
+
+{home_linear_rae: 0.1020833452394474}
+{home_oracle_rae: 0.23745451844621607}
+{home_merge_rae: 0.14387796842289644}
+
+{home_linear_rae: 0.10027782534307501}
+{home_oracle_rae: 0.23098915905736028}
+{home_merge_rae: 0.14116782509517697}
+
+{home_linear_rae: 0.09963122348051398}
+{home_oracle_rae: 0.22998987982123412}
+{home_merge_rae: 0.14125209289935145}
+
+{home_linear_rae: 0.0989415769737085}
+{home_oracle_rae: 0.22866886683499293}
+{home_merge_rae: 0.14047486945500567}
+
+{home_linear_rae: 0.09848651721211626}
+{home_oracle_rae: 0.22738571252523126}
+{home_merge_rae: 0.13999079393097053}
+
+{home_linear_rae: 0.09852324227644116}
+{home_oracle_rae: 0.2281780078669087}
+{home_merge_rae: 0.14077087994130638}
+
+{home_linear_rae: 0.09865341271811123}
+{home_oracle_rae: 0.22792928057752335}
+{home_merge_rae: 0.1409099976291471}
+
+{home_linear_rae: 0.09794494562908941}
+{home_oracle_rae: 0.2269665382249707}
+{home_merge_rae: 0.14041954243683485}
+
+{home_linear_rae: 0.09801533579849357}
+{home_oracle_rae: 0.22693467926587438}
+{home_merge_rae: 0.1403782680108287}
+
+{home_linear_rae: 0.09753991848692624}
+{home_oracle_rae: 0.22547495433289827}
+{home_merge_rae: 0.13892336537571576}
+
+{home_linear_rae: 0.0972193411730053}
+{home_oracle_rae: 0.22499990876503126}
+{home_merge_rae: 0.1387245373538071}
+
+{home_linear_rae: 0.09719450790091706}
+{home_oracle_rae: 0.22444243766069752}
+{home_merge_rae: 0.13753843607336527}
+
+{home_linear_rae: 0.09654858599115561}
+{home_oracle_rae: 0.22394365031606936}
+{home_merge_rae: 0.13661208617779796}
+
+{home_linear_rae: 0.09640232602371399}
+{home_oracle_rae: 0.22297313322568194}
+{home_merge_rae: 0.13604462724662658}
+
+{home_linear_rae: 0.09609555916691327}
+{home_oracle_rae: 0.22186470385991858}
+{home_merge_rae: 0.13471255655461284}
+
+{home_linear_rae: 0.0963100528775146}
+{home_oracle_rae: 0.22329808955885608}
+{home_merge_rae: 0.13536113062426555}
+
+{home_linear_rae: 0.09603057324831232}
+{home_oracle_rae: 0.22431179020611725}
+{home_merge_rae: 0.13544547339713806}
+
+{home_linear_rae: 0.09563587570293927}
+{home_oracle_rae: 0.22386209683076758}
+{home_merge_rae: 0.13527932293134806}
+
+{home_linear_rae: 0.09555979000864459}
+{home_oracle_rae: 0.2230836683838178}
+{home_merge_rae: 0.13459153354592976}
+
+{home_linear_rae: 0.09517017339943548}
+{home_oracle_rae: 0.2229961056381514}
+{home_merge_rae: 0.13426088686862117}
+
+{home_linear_rae: 0.09494265545013915}
+{home_oracle_rae: 0.2227756661951028}
+{home_merge_rae: 0.13401171695503267}
+
+{home_linear_rae: 0.09433120622934461}
+{home_oracle_rae: 0.2223647662405849}
+{home_merge_rae: 0.1338082145947188}
+
+{home_linear_rae: 0.0940783523913359}
+{home_oracle_rae: 0.2226210352934092}
+{home_merge_rae: 0.13400632780387517}
+
+{home_linear_rae: 0.093327160451479}
+{home_oracle_rae: 0.2223393233451994}
+{home_merge_rae: 0.1329167833101052}
+
+{home_linear_rae: 0.09300391132642917}
+{home_oracle_rae: 0.22186594181411443}
+{home_merge_rae: 0.13251506392657753}
+
+{home_linear_rae: 0.09266672347477921}
+{home_oracle_rae: 0.2227846961692672}
+{home_merge_rae: 0.13262659244409114}
+
+{home_linear_rae: 0.0924316645827003}
+{home_oracle_rae: 0.22297163970254413}
+{home_merge_rae: 0.13248083761353693}
+
+{home_linear_rae: 0.09229534872717893}
+{home_oracle_rae: 0.22265705059050117}
+{home_merge_rae: 0.13244546795180562}
+
+{home_linear_rae: 0.09198025265179625}
+{home_oracle_rae: 0.22233150850273126}
+{home_merge_rae: 0.13181277821324777}
+
+{home_linear_rae: 0.09068252632921117}
+{home_oracle_rae: 0.22285509555346228}
+{home_merge_rae: 0.13133635922683376}
+
+{home_linear_rae: 0.09026236013965072}
+{home_oracle_rae: 0.22347112323724783}
+{home_merge_rae: 0.13125532126245953}
+
+{home_linear_rae: 0.08983354395148523}
+{home_oracle_rae: 0.22245683031542177}
+{home_merge_rae: 0.1309088867930999}
+
+{home_linear_rae: 0.08788160603253276}
+{home_oracle_rae: 0.2212084882573208}
+{home_merge_rae: 0.1294056457596616}
+
+{home_linear_rae: 0.08712621756166769}
+{home_oracle_rae: 0.22160444643689126}
+{home_merge_rae: 0.12952382038361077}
+
+{home_linear_rae: 0.08533651111181716}
+{home_oracle_rae: 0.2208595578189321}
+{home_merge_rae: 0.12807299136484956}
+
+{home_linear_rae: 0.08338661569502923}
+{home_oracle_rae: 0.2203987526399265}
+{home_merge_rae: 0.12499412837157484}
+
+{home_linear_rae: 0.08203853321797569}
+{home_oracle_rae: 0.22101691382514405}
+{home_merge_rae: 0.12205969524020793}
+
+{home_linear_rae: 0.0816699262281792}
+{home_oracle_rae: 0.22047171684680214}
+{home_merge_rae: 0.1223692536467128}
+
+{home_linear_rae: 0.08175906249420203}
+{home_oracle_rae: 0.22095020587165018}
+{home_merge_rae: 0.12249077410496502}
+
+{home_linear_rae: 0.0815480291923063}
+{home_oracle_rae: 0.2208703995888424}
+{home_merge_rae: 0.12251384197916412}
+
+{home_linear_rae: 0.08119863939224227}
+{home_oracle_rae: 0.22060513548430102}
+{home_merge_rae: 0.12101122213020861}
+
+{home_linear_rae: 0.08129314419581044}
+{home_oracle_rae: 0.22128871079116494}
+{home_merge_rae: 0.12190870026492903}
+
+{home_linear_rae: 0.0810647696730741}
+{home_oracle_rae: 0.2210801202510659}
+{home_merge_rae: 0.12185161223166507}
+
+{home_linear_rae: 0.08088406672491989}
+{home_oracle_rae: 0.22025590541304194}
+{home_merge_rae: 0.12118497639514272}
+
+{home_linear_rae: 0.08069579659449178}
+{home_oracle_rae: 0.21955198001752482}
+{home_merge_rae: 0.12049586062125187}
+
+{home_linear_rae: 0.08055564001666203}
+{home_oracle_rae: 0.21849133326958675}
+{home_merge_rae: 0.11991671361168288}
+
+{home_linear_rae: 0.08044646925288397}
+{home_oracle_rae: 0.2190674553270941}
+{home_merge_rae: 0.11988339036102186}
+
+{home_linear_rae: 0.08048938018299595}
+{home_oracle_rae: 0.21834496639720025}
+{home_merge_rae: 0.11945251951503476}
+
+{home_linear_rae: 0.08023616191439635}
+{home_oracle_rae: 0.21844662782696678}
+{home_merge_rae: 0.11923597405723886}
+
+{home_linear_rae: 0.08016133733914964}
+{home_oracle_rae: 0.2181860193657637}
+{home_merge_rae: 0.11851457835813885}
+
+{home_linear_rae: 0.0799578958358293}
+{home_oracle_rae: 0.21809378924822048}
+{home_merge_rae: 0.11850826497702704}
+
+{home_linear_rae: 0.08002109656859273}
+{home_oracle_rae: 0.21783488302031098}
+{home_merge_rae: 0.1187524893577457}
+
+{home_linear_rae: 0.0795189084024638}
+{home_oracle_rae: 0.21764473228159187}
+{home_merge_rae: 0.11866482436576187}
+
+{home_linear_rae: 0.0793868129084215}
+{home_oracle_rae: 0.2169604774696198}
+{home_merge_rae: 0.1180026522508858}
+
+{home_linear_rae: 0.07870713201857636}
+{home_oracle_rae: 0.2165371765271317}
+{home_merge_rae: 0.11766774207957593}
+
+{home_linear_rae: 0.0784098733875266}
+{home_oracle_rae: 0.21655708465291199}
+{home_merge_rae: 0.11734839797879613}
+
+{home_linear_rae: 0.07846683491756555}
+{home_oracle_rae: 0.21634176402720207}
+{home_merge_rae: 0.11721311412925711}
+
+{home_linear_rae: 0.07843556565568895}
+{home_oracle_rae: 0.21620659266862838}
+{home_merge_rae: 0.117206945553148}
+
+{home_linear_rae: 0.07841886243501063}
+{home_oracle_rae: 0.21595617829599317}
+{home_merge_rae: 0.11731040319353202}
+
+{home_linear_rae: 0.07848755196281948}
+{home_oracle_rae: 0.21604215950132216}
+{home_merge_rae: 0.11736809048899621}
+
+{home_linear_rae: 0.07849575264285757}
+{home_oracle_rae: 0.2158917546368229}
+{home_merge_rae: 0.1171483718376124}
+
+{home_linear_rae: 0.07852337408664713}
+{home_oracle_rae: 0.21543459510388396}
+{home_merge_rae: 0.11697597713946713}
+
+{home_linear_rae: 0.07844326423086907}
+{home_oracle_rae: 0.21520020102528803}
+{home_merge_rae: 0.11692969736026501}
+
+{home_linear_rae: 0.07836988767560854}
+{home_oracle_rae: 0.21518582265480932}
+{home_merge_rae: 0.1169175652077392}
+
+{home_linear_rae: 0.07828822074970593}
+{home_oracle_rae: 0.2151191376109637}
+{home_merge_rae: 0.11681786779715922}
+
+{home_linear_rae: 0.07818221653543905}
+{home_oracle_rae: 0.21478998853580192}
+{home_merge_rae: 0.11654440764418503}
+
+{home_linear_rae: 0.07771509462798837}
+{home_oracle_rae: 0.21428202871655472}
+{home_merge_rae: 0.11616884003167172}
+
+{home_linear_rae: 0.07756978125953136}
+{home_oracle_rae: 0.21435797749851415}
+{home_merge_rae: 0.11614090893765064}
+
+{home_linear_rae: 0.07741349124486034}
+{home_oracle_rae: 0.2138571524611981}
+{home_merge_rae: 0.11579505139572127}
+
+{home_linear_rae: 0.07737960636266729}
+{home_oracle_rae: 0.2137340661922017}
+{home_merge_rae: 0.1154059487858585}
+
+{home_linear_rae: 0.07741835244317893}
+{home_oracle_rae: 0.21371024851179368}
+{home_merge_rae: 0.115671679747008}
+
+{home_linear_rae: 0.07729075347649507}
+{home_oracle_rae: 0.21365276619795728}
+{home_merge_rae: 0.11557747541825937}
+
+{home_linear_rae: 0.07730206580862829}
+{home_oracle_rae: 0.2134198158776259}
+{home_merge_rae: 0.11564232297502543}
+
+{home_linear_rae: 0.07724297485406177}
+{home_oracle_rae: 0.2131535213997427}
+{home_merge_rae: 0.11536100224945489}
+
+{home_linear_rae: 0.07717279494880087}
+{home_oracle_rae: 0.2128892517246773}
+{home_merge_rae: 0.11499087491251432}
+
+{home_linear_rae: 0.0770425291761719}
+{home_oracle_rae: 0.21268068921670927}
+{home_merge_rae: 0.11473920577934406}
+
+{home_linear_rae: 0.07705573748866232}
+{home_oracle_rae: 0.21256689857477762}
+{home_merge_rae: 0.11486616084895562}
+
+{home_linear_rae: 0.07682851533187501}
+{home_oracle_rae: 0.21231062912599488}
+{home_merge_rae: 0.11457402301167201}
+
+{home_linear_rae: 0.07682951841944191}
+{home_oracle_rae: 0.21257214542905156}
+{home_merge_rae: 0.11472452023001743}
+
+{home_linear_rae: 0.07683939381959996}
+{home_oracle_rae: 0.21219926377421258}
+{home_merge_rae: 0.1144654042888669}
+
+{home_linear_rae: 0.07675543441147861}
+{home_oracle_rae: 0.212290236848269}
+{home_merge_rae: 0.11464115922388776}
+
+{home_linear_rae: 0.07671764657263062}
+{home_oracle_rae: 0.21214144013159503}
+{home_merge_rae: 0.11452309680017635}
+
+{home_linear_rae: 0.07661146733499459}
+{home_oracle_rae: 0.2119935746834732}
+{home_merge_rae: 0.11448115901636263}
+
+{home_linear_rae: 0.07653124327562134}
+{home_oracle_rae: 0.21179702071648907}
+{home_merge_rae: 0.11400263673831189}
+
+{home_linear_rae: 0.07649400819240126}
+{home_oracle_rae: 0.21151057787999836}
+{home_merge_rae: 0.11402972496941745}
+
+{home_linear_rae: 0.07654365837588248}
+{home_oracle_rae: 0.21175844613909878}
+{home_merge_rae: 0.11443023187298802}
+
+{home_linear_rae: 0.07643850306234988}
+{home_oracle_rae: 0.2118118591038743}
+{home_merge_rae: 0.11435204350814168}
+
+{home_linear_rae: 0.07643061332417211}
+{home_oracle_rae: 0.21160031061093304}
+{home_merge_rae: 0.11417977120212955}
+
+{home_linear_rae: 0.076307315054583}
+{home_oracle_rae: 0.21104969704295284}
+{home_merge_rae: 0.11382848236984995}
+
+{home_linear_rae: 0.07631172368089433}
+{home_oracle_rae: 0.21079502695788926}
+{home_merge_rae: 0.11386720756386197}
+
+{home_linear_rae: 0.07627092918934328}
+{home_oracle_rae: 0.21057618550995896}
+{home_merge_rae: 0.1139540962980851}
+
+{home_linear_rae: 0.07622876708939501}
+{home_oracle_rae: 0.2107146486522597}
+{home_merge_rae: 0.11420581892723788}
+
+{home_linear_rae: 0.07616984962803867}
+{home_oracle_rae: 0.2105204768939312}
+{home_merge_rae: 0.11412214458657272}
+
+{home_linear_rae: 0.07617269309467001}
+{home_oracle_rae: 0.21029049290279694}
+{home_merge_rae: 0.11424083204140376}
+
+{home_linear_rae: 0.07608053933297483}
+{home_oracle_rae: 0.21005731994708893}
+{home_merge_rae: 0.11389810333167419}
+
+{home_linear_rae: 0.07606129909595243}
+{home_oracle_rae: 0.20981852466027373}
+{home_merge_rae: 0.1137835191565456}
+
+{home_linear_rae: 0.07609623136494875}
+{home_oracle_rae: 0.20999179848968502}
+{home_merge_rae: 0.11372983109970052}
+
+{home_linear_rae: 0.07605071459295974}
+{home_oracle_rae: 0.20972483497710537}
+{home_merge_rae: 0.11365280926923212}
+
+{home_linear_rae: 0.07600611421486861}
+{home_oracle_rae: 0.20947250498519848}
+{home_merge_rae: 0.11350000890469786}
+
+{home_linear_rae: 0.07599045068116153}
+{home_oracle_rae: 0.2092400425904232}
+{home_merge_rae: 0.11331019488571512}
+
+{home_linear_rae: 0.07590513689213446}
+{home_oracle_rae: 0.20890378535791437}
+{home_merge_rae: 0.11294751927406335}
+
+{home_linear_rae: 0.07587410882118198}
+{home_oracle_rae: 0.20879928256553792}
+{home_merge_rae: 0.11296487930911217}
+
+{home_linear_rae: 0.07586145226692767}
+{home_oracle_rae: 0.20864025348456403}
+{home_merge_rae: 0.11294596573163068}
+
+{home_linear_rae: 0.07578509978192129}
+{home_oracle_rae: 0.20854850474092557}
+{home_merge_rae: 0.11287282422031386}
+
+{home_linear_rae: 0.07577083747968856}
+{home_oracle_rae: 0.20850591872472174}
+{home_merge_rae: 0.11287129255706099}
+
+{home_linear_rae: 0.07576681817043843}
+{home_oracle_rae: 0.20875387703341122}
+{home_merge_rae: 0.11301460540720983}
+
+{home_linear_rae: 0.07574262903774742}
+{home_oracle_rae: 0.2086733545632962}
+{home_merge_rae: 0.11307854619237462}
+
+{home_linear_rae: 0.0756970781784724}
+{home_oracle_rae: 0.20864023426476627}
+{home_merge_rae: 0.11310989664451865}
+
+{home_linear_rae: 0.07571064752785085}
+{home_oracle_rae: 0.20842645773654742}
+{home_merge_rae: 0.11312467228363839}
+
+{home_linear_rae: 0.07569920313712956}
+{home_oracle_rae: 0.20843728661612684}
+{home_merge_rae: 0.11304322433839831}
+
+{home_linear_rae: 0.07564696889274834}
+{home_oracle_rae: 0.20825697678420024}
+{home_merge_rae: 0.11303745086805839}
+
+{home_linear_rae: 0.07563424029478488}
+{home_oracle_rae: 0.20813107175641202}
+{home_merge_rae: 0.1129870047164514}
+
+{home_linear_rae: 0.07561683965711168}
+{home_oracle_rae: 0.20808072220314458}
+{home_merge_rae: 0.11282551497752079}
+
+{home_linear_rae: 0.07564091275004875}
+{home_oracle_rae: 0.2079485406981405}
+{home_merge_rae: 0.11281033636202692}
+
+{home_linear_rae: 0.07564958061767407}
+{home_oracle_rae: 0.20781435193617212}
+{home_merge_rae: 0.11269311691472368}
+
+{home_linear_rae: 0.07564225638282059}
+{home_oracle_rae: 0.20808640607776865}
+{home_merge_rae: 0.11281241658327276}
+
+{home_linear_rae: 0.07561804778085807}
+{home_oracle_rae: 0.20806454585677758}
+{home_merge_rae: 0.11273406199035667}
+
+{home_linear_rae: 0.0755395079666268}
+{home_oracle_rae: 0.20792247641470737}
+{home_merge_rae: 0.1126375998922251}
+
+{home_linear_rae: 0.0755470094978606}
+{home_oracle_rae: 0.20813827863794337}
+{home_merge_rae: 0.11284164434547266}
+
+{home_linear_rae: 0.0755149821151437}
+{home_oracle_rae: 0.20823172098900922}
+{home_merge_rae: 0.11278230418105101}
+
+{home_linear_rae: 0.07553066034591606}
+{home_oracle_rae: 0.20837559157649013}
+{home_merge_rae: 0.11274696480389625}
+
+{home_linear_rae: 0.07534832691721896}
+{home_oracle_rae: 0.2079540506897054}
+{home_merge_rae: 0.11238354853561529}
+
+{home_linear_rae: 0.07532933928112177}
+{home_oracle_rae: 0.2078459449548541}
+{home_merge_rae: 0.11239532297517878}
+
+{home_linear_rae: 0.07535631287326508}
+{home_oracle_rae: 0.20766684761805188}
+{home_merge_rae: 0.11257302739456607}
+
+{home_linear_rae: 0.07523784116599488}
+{home_oracle_rae: 0.207471394524348}
+{home_merge_rae: 0.1122932325042133}
+
+{home_linear_rae: 0.07531926799235986}
+{home_oracle_rae: 0.20740462314178554}
+{home_merge_rae: 0.1125395753796624}
+
+{home_linear_rae: 0.07527192528162008}
+{home_oracle_rae: 0.20731446806328602}
+{home_merge_rae: 0.1125857484815426}
+
+{home_linear_rae: 0.07522003743058774}
+{home_oracle_rae: 0.20715878081853042}
+{home_merge_rae: 0.11244258559429339}
+
+{home_linear_rae: 0.07520360998463178}
+{home_oracle_rae: 0.20708014204444197}
+{home_merge_rae: 0.11242422667587429}
+
+{home_linear_rae: 0.07520767807640699}
+{home_oracle_rae: 0.2069749418768424}
+{home_merge_rae: 0.11230182393318934}
+
+{home_linear_rae: 0.07510892777706889}
+{home_oracle_rae: 0.2068534007345563}
+{home_merge_rae: 0.11249620119043063}
+
+{home_linear_rae: 0.07505449181248919}
+{home_oracle_rae: 0.20692230933621583}
+{home_merge_rae: 0.11233162268334047}
+
+{home_linear_rae: 0.07491109071453285}
+{home_oracle_rae: 0.20673777980521393}
+{home_merge_rae: 0.11226216231474663}
+
+{home_linear_rae: 0.07493166719559347}
+{home_oracle_rae: 0.20700214719250123}
+{home_merge_rae: 0.11243367232085225}
+
+{home_linear_rae: 0.07490499291522744}
+{home_oracle_rae: 0.2070113311934013}
+{home_merge_rae: 0.11242448138787525}
+
+{home_linear_rae: 0.0748301780319481}
+{home_oracle_rae: 0.20680594944926164}
+{home_merge_rae: 0.11217599932868443}
+
+{home_linear_rae: 0.07486096167776189}
+{home_oracle_rae: 0.20678178806118194}
+{home_merge_rae: 0.11217710438704478}
+
+{home_linear_rae: 0.07478190910104823}
+{home_oracle_rae: 0.20665021130248332}
+{home_merge_rae: 0.11218309000027561}
+
+{home_linear_rae: 0.07479958077184211}
+{home_oracle_rae: 0.20657921519925024}
+{home_merge_rae: 0.11211307408309623}
+
+{home_linear_rae: 0.0748281962839482}
+{home_oracle_rae: 0.20646927009778118}
+{home_merge_rae: 0.11218255346009876}
+
+{home_linear_rae: 0.07484014665846486}
+{home_oracle_rae: 0.20676244489245063}
+{home_merge_rae: 0.11224699217223569}
+
+{home_linear_rae: 0.07480321536530184}
+{home_oracle_rae: 0.20668061667533358}
+{home_merge_rae: 0.11206538239148839}
+
+{home_linear_rae: 0.07486009420500775}
+{home_oracle_rae: 0.20710676951706045}
+{home_merge_rae: 0.11230194691241303}
+
+{home_linear_rae: 0.07489901546407067}
+{home_oracle_rae: 0.20729751243165612}
+{home_merge_rae: 0.11231294439921866}
+
+{home_linear_rae: 0.07492170239033921}
+{home_oracle_rae: 0.20711319547281448}
+{home_merge_rae: 0.11216930900115984}
+
+{home_linear_rae: 0.07494633270800485}
+{home_oracle_rae: 0.2074007539191083}
+{home_merge_rae: 0.11225088210379061}
+
+{home_linear_rae: 0.0749131659214117}
+{home_oracle_rae: 0.20742955361888943}
+{home_merge_rae: 0.11234020291194509}
+
+{home_linear_rae: 0.07488243015044184}
+{home_oracle_rae: 0.20731067454347996}
+{home_merge_rae: 0.11236040058779193}
+
+{home_linear_rae: 0.07492297950198083}
+{home_oracle_rae: 0.2073338539215332}
+{home_merge_rae: 0.1123599647571213}
+
+{home_linear_rae: 0.07491699197154543}
+{home_oracle_rae: 0.20752285552394723}
+{home_merge_rae: 0.11244111652121318}
+
+{home_linear_rae: 0.07486602418480505}
+{home_oracle_rae: 0.20747056617811002}
+{home_merge_rae: 0.1121964162722341}
+
+{home_linear_rae: 0.07487590127219623}
+{home_oracle_rae: 0.20732263047898633}
+{home_merge_rae: 0.11216935344465526}
+
+{home_linear_rae: 0.0748082833586984}
+{home_oracle_rae: 0.20721385699284917}
+{home_merge_rae: 0.11228020971003914}
+
+{home_linear_rae: 0.07484922351440115}
+{home_oracle_rae: 0.2071464007232671}
+{home_merge_rae: 0.11206114161672533}
+
+{home_linear_rae: 0.07485947177355208}
+{home_oracle_rae: 0.20717883245393529}
+{home_merge_rae: 0.11225695289269744}
+
+{home_linear_rae: 0.07484802757633373}
+{home_oracle_rae: 0.20707688404728122}
+{home_merge_rae: 0.11216333702781933}
+
+{home_linear_rae: 0.07484426342404103}
+{home_oracle_rae: 0.20718071455068013}
+{home_merge_rae: 0.112192424817038}
+
+{home_linear_rae: 0.07482977253903508}
+{home_oracle_rae: 0.20708890917611456}
+{home_merge_rae: 0.11210113174488587}
+
+{home_linear_rae: 0.07483336484795768}
+{home_oracle_rae: 0.20725347458609275}
+{home_merge_rae: 0.11199579424340544}
+
+{home_linear_rae: 0.07485365787479427}
+{home_oracle_rae: 0.2072917859483942}
+{home_merge_rae: 0.11216373184855412}
+
+{home_linear_rae: 0.0747677098225643}
+{home_oracle_rae: 0.20724853485930647}
+{home_merge_rae: 0.11196041905159897}
+
+{home_linear_rae: 0.07479482137467186}
+{home_oracle_rae: 0.20720967642727608}
+{home_merge_rae: 0.11210802517181641}
+
+{home_linear_rae: 0.0748180659293173}
+{home_oracle_rae: 0.20744023321803717}
+{home_merge_rae: 0.11211795934327955}
+
+{home_linear_rae: 0.07486746743075742}
+{home_oracle_rae: 0.20772645195962025}
+{home_merge_rae: 0.11219189244266359}
+
+{home_linear_rae: 0.07488788882693492}
+{home_oracle_rae: 0.20763631469759117}
+{home_merge_rae: 0.11217285453283704}
+
+{home_linear_rae: 0.07481070469945883}
+{home_oracle_rae: 0.20763339762523617}
+{home_merge_rae: 0.1120601509238901}
+

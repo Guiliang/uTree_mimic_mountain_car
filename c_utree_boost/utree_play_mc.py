@@ -66,7 +66,7 @@ def test():
     ice_hockey_problem = Problem_moutaincar.MoutainCar(games_directory='../save_all_transition/')
     CUTreeAgent = Agent.CUTreeAgent(problem=ice_hockey_problem, max_hist=3000,
                                     check_fringe_freq=1200, is_episodic=0, training_mode='_linear_epoch_decay_lr')
-    CUTreeAgent.read_Utree(game_number=5, save_path=CUTreeAgent.SAVE_PATH)
+    CUTreeAgent.read_Utree(game_number=300, save_path=CUTreeAgent.SAVE_PATH)
 
     reward_list = []
     game_number = 100
@@ -77,7 +77,7 @@ def test():
         total_reward = 0
         for i in range(0, 500):
 
-            if done and i != 200:
+            if done:
                 break
 
             action = get_action_similar_instance(observation.tolist(), CUTreeAgent)

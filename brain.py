@@ -128,16 +128,16 @@ class Agent:
         self.memory = ReplayMemory(self.env, self.batch_size, self.max_memory_size, self.gamma)
         self.model = Model(self.env, self.learning_rate, self.memory)
 
-        self.max_episodes = 50000
-        self.render = True
+        self.max_episodes = 1000
+        self.render = False
 
     def train(self):
-
         for i in range(self.max_episodes):
             current_state = self.env.reset()
             done = False
             count = 0
             total_reward = 0
+            observation_list = []
 
             while not done:
                 if self.render:
@@ -145,6 +145,8 @@ class Agent:
 
                 action, _ = self.model.get_action(current_state, self.epsilon)
                 next_state, reward, done, _ = self.env.step(action)
+
+                observation_list.append(current_state.tolist() + [action])
 
                 self.memory.add(current_state, action, reward, done, next_state)
                 current_state = next_state
@@ -154,22 +156,23 @@ class Agent:
             print('TRAIN: The episode ' + str(i) + ' lasted for ' + str(
                 count) + ' time steps with epsilon ' + str(self.epsilon))
 
+            self.save_csv_all_observations(observation_list, './record_training_observations.csv')
+
             # if i > 200:
             if self.epsilon > self.final_epsilon:
                 self.epsilon *= self.epsilon_decay
-            self.model.save_model(i)
+            # self.model.save_model(i)
 
     def test(self):
 
         self.model.read_model()
-        test_epsilon = 0.1
-
+        test_epsilon = 0
+        total_reward_list = []
         for i in range(100):
             observation = self.env.reset()
             done = False
             count = 0
             total_reward = 0
-            total_reward_list = []
 
             record_transition = []
 
@@ -179,6 +182,9 @@ class Agent:
 
                 action, qValues = self.model.get_action(observation, test_epsilon)
                 newObservation, reward, done, _ = self.env.step(action)
+
+                if done:
+                    pass
 
                 observation_str = ''
                 for feature in observation:
@@ -197,22 +203,33 @@ class Agent:
                 observation = newObservation
                 total_reward += reward
                 count += 1
+
+            total_reward_list.append(total_reward)
+
             print('TRAIN: The episode ' + str(i) + ' lasted for ' + str(
                 count) + ' time steps with epsilon ' + str(test_epsilon))
 
-            self.mean_confidence_interval(total_reward_list)
+        m, h = self.mean_confidence_interval(total_reward_list)
 
-            # self.save_csv_all_correlations(record_transition,
-            #                                './save_all_transition_e{1}/record_moutaincar_transition_game{0}.csv'.format(
-            #                                    int(i), str(test_epsilon)))
+        print 'DRL mean:{0}, interval:{1}'.format(str(m), str(h))
 
-    def save_csv_all_correlations(self, record_transition, csv_name):
-        with open(csv_name, 'a') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=record_transition[0].keys())
-            writer.writeheader()
+        # self.save_csv_all_correlations(record_transition,
+        #                                './save_all_transition_e{1}/record_moutaincar_transition_game{0}.csv'.format(
+        #                                    int(i), str(test_epsilon)))
 
-            for row_dict in record_transition:
-                writer.writerow(row_dict)
+    # def save_csv_all_correlations(self, record_transition, csv_name):
+    #     with open(csv_name, 'a') as csvfile:
+    #         writer = csv.DictWriter(csvfile, fieldnames=record_transition[0].keys())
+    #         writer.writeheader()
+    #
+    #         for row_dict in record_transition:
+    #             writer.writerow(row_dict)
+
+    def save_csv_all_observations(self, record_observation, csv_name):
+        with open(csv_name, "a") as output:
+            writer = csv.writer(output, lineterminator='\n')
+            for val in record_observation:
+                writer.writerow(val)
 
     def mean_confidence_interval(self, data, confidence=0.95):
         a = 1.0 * np.array(data)
@@ -224,5 +241,5 @@ class Agent:
 
 if __name__ == "__main__":
     agent = Agent()
-    # agent.train()
-    agent.test()
+    agent.train()
+    # agent.test()

@@ -14,6 +14,10 @@ optparser.add_option("-g", "--game number to test", dest="GAME_NUMBER", default=
                      help="which game to test")
 optparser.add_option("-a", "--result correlation dir", dest="SAVE_CORRELATION_DIR", default=None,
                      help="the dir correlation result")
+optparser.add_option("-j", "--result relative absolute error dir", dest="SAVE_RAE_DIR", default=None,
+                     help="the dir relative absolute error result")
+optparser.add_option("-i", "--result relative square error dir", dest="SAVE_RSE_DIR", default=None,
+                     help="the dir relative square error result")
 optparser.add_option("-b", "--result mean square error dir", dest="SAVE_MSE_DIR", default=None,
                      help="the dir mean square error result")
 optparser.add_option("-f", "--result mean absolute error dir", dest="SAVE_MAE_DIR", default=None,
@@ -32,7 +36,8 @@ def test():
     CUTreeAgent.boost_tree_testing_performance(
         save_path='/Local-Scratch/UTree model/mountaincar/model_boost_linear_qsplit_noabs_save{0}/'.format(opts.TRAINING_MODE),
         read_game_number=opts.GAME_NUMBER, save_correlation_dir = opts.SAVE_CORRELATION_DIR,
-        save_mse_dir =opts.SAVE_MSE_DIR, save_mae_dir =opts.SAVE_MAE_DIR)
+        save_mse_dir =opts.SAVE_MSE_DIR, save_mae_dir =opts.SAVE_MAE_DIR, save_rae_dir=opts.SAVE_RAE_DIR,
+        save_rse_dir=opts.SAVE_RSE_DIR)
 
 
 def test_sh():

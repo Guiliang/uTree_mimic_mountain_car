@@ -1,0 +1,800 @@
+{home_linear_mse: 30.5401695795}
+{home_oracle_mse: 47.7941846155}
+{home_merge_mse: 47.3693891537}
+
+{home_linear_mse: 17.5381577838}
+{home_oracle_mse: 34.8530207894}
+{home_merge_mse: 32.7821726686}
+
+{home_linear_mse: 12.4534125868}
+{home_oracle_mse: 21.4494988552}
+{home_merge_mse: 19.0671329717}
+
+{home_linear_mse: 11.3571908674}
+{home_oracle_mse: 19.4746020773}
+{home_merge_mse: 17.5110969466}
+
+{home_linear_mse: 10.3647490514}
+{home_oracle_mse: 17.9974087905}
+{home_merge_mse: 16.0872302323}
+
+{home_linear_mse: 8.7998793903}
+{home_oracle_mse: 16.9090617358}
+{home_merge_mse: 14.4781039218}
+
+{home_linear_mse: 8.189051046}
+{home_oracle_mse: 16.4844706666}
+{home_merge_mse: 13.635874419}
+
+{home_linear_mse: 7.33747547933}
+{home_oracle_mse: 15.3732302958}
+{home_merge_mse: 12.687938163}
+
+{home_linear_mse: 6.89476868326}
+{home_oracle_mse: 14.6874800612}
+{home_merge_mse: 11.9604644065}
+
+{home_linear_mse: 6.60161268777}
+{home_oracle_mse: 13.8044252178}
+{home_merge_mse: 11.597400721}
+
+{home_linear_mse: 6.26388875177}
+{home_oracle_mse: 13.5226691356}
+{home_merge_mse: 11.1366692513}
+
+{home_linear_mse: 6.0567656701}
+{home_oracle_mse: 12.895534876}
+{home_merge_mse: 10.5419497712}
+
+{home_linear_mse: 5.91528777981}
+{home_oracle_mse: 12.7602513257}
+{home_merge_mse: 10.2506336669}
+
+{home_linear_mse: 5.59517585134}
+{home_oracle_mse: 11.7755400737}
+{home_merge_mse: 9.38051743577}
+
+{home_linear_mse: 4.9378656815}
+{home_oracle_mse: 10.8578694857}
+{home_merge_mse: 8.34231949235}
+
+{home_linear_mse: 4.51206414323}
+{home_oracle_mse: 10.464891506}
+{home_merge_mse: 7.99445893919}
+
+{home_linear_mse: 3.84788635121}
+{home_oracle_mse: 9.8102250029}
+{home_merge_mse: 7.69446403065}
+
+{home_linear_mse: 3.50676888149}
+{home_oracle_mse: 9.55493864301}
+{home_merge_mse: 7.50498769838}
+
+{home_linear_mse: 3.22460810353}
+{home_oracle_mse: 9.4585680691}
+{home_merge_mse: 7.54222647455}
+
+{home_linear_mse: 2.95076988341}
+{home_oracle_mse: 9.37356697387}
+{home_merge_mse: 7.42548040607}
+
+{home_linear_mse: 2.5861472861}
+{home_oracle_mse: 9.02636546762}
+{home_merge_mse: 7.1229683986}
+
+{home_linear_mse: 2.38291615711}
+{home_oracle_mse: 8.57692064768}
+{home_merge_mse: 6.70424392271}
+
+{home_linear_mse: 2.29129252005}
+{home_oracle_mse: 7.67801601549}
+{home_merge_mse: 5.8992412132}
+
+{home_linear_mse: 2.25453391524}
+{home_oracle_mse: 7.44035061493}
+{home_merge_mse: 5.62862925382}
+
+{home_linear_mse: 2.21741194037}
+{home_oracle_mse: 7.38600593983}
+{home_merge_mse: 5.55868247585}
+
+{home_linear_mse: 2.044524964}
+{home_oracle_mse: 7.25784942926}
+{home_merge_mse: 5.34954493754}
+
+{home_linear_mse: 1.99712678923}
+{home_oracle_mse: 7.03968313262}
+{home_merge_mse: 5.17556697414}
+
+{home_linear_mse: 2.00336802097}
+{home_oracle_mse: 7.02187102904}
+{home_merge_mse: 5.23855568763}
+
+{home_linear_mse: 1.97872866119}
+{home_oracle_mse: 7.04822385536}
+{home_merge_mse: 5.15722605046}
+
+{home_linear_mse: 1.96242657546}
+{home_oracle_mse: 7.11847498559}
+{home_merge_mse: 5.20626232715}
+
+{home_linear_mse: 1.91541919368}
+{home_oracle_mse: 7.04498422726}
+{home_merge_mse: 5.12321326648}
+
+{home_linear_mse: 1.90244797091}
+{home_oracle_mse: 6.93467404062}
+{home_merge_mse: 5.04975296137}
+
+{home_linear_mse: 1.90421014549}
+{home_oracle_mse: 6.71924836613}
+{home_merge_mse: 4.84154282715}
+
+{home_linear_mse: 1.90563225871}
+{home_oracle_mse: 6.70503343073}
+{home_merge_mse: 4.85268733902}
+
+{home_linear_mse: 1.89546238474}
+{home_oracle_mse: 6.73196857247}
+{home_merge_mse: 4.88195331395}
+
+{home_linear_mse: 1.84663541438}
+{home_oracle_mse: 6.36544048279}
+{home_merge_mse: 4.55628755987}
+
+{home_linear_mse: 1.79709248561}
+{home_oracle_mse: 6.33952969973}
+{home_merge_mse: 4.58509486081}
+
+{home_linear_mse: 1.77875405356}
+{home_oracle_mse: 6.32206840845}
+{home_merge_mse: 4.57851498839}
+
+{home_linear_mse: 1.76604401923}
+{home_oracle_mse: 6.24960288581}
+{home_merge_mse: 4.52840049588}
+
+{home_linear_mse: 1.75959196727}
+{home_oracle_mse: 6.30698923898}
+{home_merge_mse: 4.58586787731}
+
+{home_linear_mse: 1.73178207396}
+{home_oracle_mse: 6.3145124571}
+{home_merge_mse: 4.59852727663}
+
+{home_linear_mse: 1.70826841757}
+{home_oracle_mse: 6.3002174621}
+{home_merge_mse: 4.59668023095}
+
+{home_linear_mse: 1.69132905701}
+{home_oracle_mse: 6.31642428011}
+{home_merge_mse: 4.60037132023}
+
+{home_linear_mse: 1.68082674099}
+{home_oracle_mse: 6.19435298934}
+{home_merge_mse: 4.47589297877}
+
+{home_linear_mse: 1.66205161629}
+{home_oracle_mse: 6.18748049883}
+{home_merge_mse: 4.47993835559}
+
+{home_linear_mse: 1.63572773148}
+{home_oracle_mse: 6.03096220843}
+{home_merge_mse: 4.31220697823}
+
+{home_linear_mse: 1.62341997369}
+{home_oracle_mse: 5.97366371349}
+{home_merge_mse: 4.24737478318}
+
+{home_linear_mse: 1.6059652803}
+{home_oracle_mse: 5.90261820607}
+{home_merge_mse: 4.18195814299}
+
+{home_linear_mse: 1.59763699422}
+{home_oracle_mse: 5.84241860095}
+{home_merge_mse: 4.11301728005}
+
+{home_linear_mse: 1.59045661347}
+{home_oracle_mse: 5.92233219728}
+{home_merge_mse: 4.1639700703}
+
+{home_linear_mse: 1.57057696557}
+{home_oracle_mse: 5.96303250939}
+{home_merge_mse: 4.18971454369}
+
+{home_linear_mse: 1.56179529309}
+{home_oracle_mse: 5.95765765892}
+{home_merge_mse: 4.18862603179}
+
+{home_linear_mse: 1.5553331531}
+{home_oracle_mse: 5.90715186047}
+{home_merge_mse: 4.12879269868}
+
+{home_linear_mse: 1.54710337483}
+{home_oracle_mse: 5.91182998781}
+{home_merge_mse: 4.12997595745}
+
+{home_linear_mse: 1.54418272465}
+{home_oracle_mse: 5.92181283487}
+{home_merge_mse: 4.13771439421}
+
+{home_linear_mse: 1.52930278415}
+{home_oracle_mse: 5.92056775185}
+{home_merge_mse: 4.14613539082}
+
+{home_linear_mse: 1.52682667694}
+{home_oracle_mse: 5.95611208984}
+{home_merge_mse: 4.17512077779}
+
+{home_linear_mse: 1.51294346738}
+{home_oracle_mse: 5.92587535404}
+{home_merge_mse: 4.13329527441}
+
+{home_linear_mse: 1.48041999381}
+{home_oracle_mse: 5.89910909559}
+{home_merge_mse: 4.10994390193}
+
+{home_linear_mse: 1.47496971184}
+{home_oracle_mse: 5.94769378279}
+{home_merge_mse: 4.14665028822}
+
+{home_linear_mse: 1.46330598877}
+{home_oracle_mse: 5.92066753641}
+{home_merge_mse: 4.10697021008}
+
+{home_linear_mse: 1.44689219342}
+{home_oracle_mse: 5.90930320696}
+{home_merge_mse: 4.10015960109}
+
+{home_linear_mse: 1.44059535525}
+{home_oracle_mse: 5.88365274092}
+{home_merge_mse: 4.06351694505}
+
+{home_linear_mse: 1.39280760695}
+{home_oracle_mse: 5.89472982859}
+{home_merge_mse: 4.05173903115}
+
+{home_linear_mse: 1.38205188889}
+{home_oracle_mse: 5.90974538362}
+{home_merge_mse: 4.05928901059}
+
+{home_linear_mse: 1.37264077621}
+{home_oracle_mse: 5.88312591072}
+{home_merge_mse: 4.05349701199}
+
+{home_linear_mse: 1.33271768214}
+{home_oracle_mse: 5.79735574516}
+{home_merge_mse: 3.97045658423}
+
+{home_linear_mse: 1.32746911849}
+{home_oracle_mse: 5.82965775529}
+{home_merge_mse: 4.00116037983}
+
+{home_linear_mse: 1.25952339821}
+{home_oracle_mse: 5.79553394847}
+{home_merge_mse: 3.96051842761}
+
+{home_linear_mse: 1.22205296411}
+{home_oracle_mse: 5.76276240878}
+{home_merge_mse: 3.87092264476}
+
+{home_linear_mse: 1.19989467006}
+{home_oracle_mse: 5.80498153007}
+{home_merge_mse: 3.84310934796}
+
+{home_linear_mse: 1.19001898545}
+{home_oracle_mse: 5.79426250067}
+{home_merge_mse: 3.85468197313}
+
+{home_linear_mse: 1.18908814379}
+{home_oracle_mse: 5.81999777633}
+{home_merge_mse: 3.87079734877}
+
+{home_linear_mse: 1.17893700995}
+{home_oracle_mse: 5.82798023632}
+{home_merge_mse: 3.88482807882}
+
+{home_linear_mse: 1.16838581412}
+{home_oracle_mse: 5.78022225307}
+{home_merge_mse: 3.80613034473}
+
+{home_linear_mse: 1.16271135485}
+{home_oracle_mse: 5.82591161196}
+{home_merge_mse: 3.83854421337}
+
+{home_linear_mse: 1.1577264279}
+{home_oracle_mse: 5.82500850863}
+{home_merge_mse: 3.84326144663}
+
+{home_linear_mse: 1.15069433191}
+{home_oracle_mse: 5.76896997702}
+{home_merge_mse: 3.78941912499}
+
+{home_linear_mse: 1.14325221559}
+{home_oracle_mse: 5.71864544163}
+{home_merge_mse: 3.73675282379}
+
+{home_linear_mse: 1.13819423461}
+{home_oracle_mse: 5.67104192564}
+{home_merge_mse: 3.70118522474}
+
+{home_linear_mse: 1.13451807493}
+{home_oracle_mse: 5.68493073387}
+{home_merge_mse: 3.69443835793}
+
+{home_linear_mse: 1.13037146955}
+{home_oracle_mse: 5.65034777837}
+{home_merge_mse: 3.65657109535}
+
+{home_linear_mse: 1.12701762127}
+{home_oracle_mse: 5.66736735254}
+{home_merge_mse: 3.6664916012}
+
+{home_linear_mse: 1.12234925677}
+{home_oracle_mse: 5.65947801631}
+{home_merge_mse: 3.64019251301}
+
+{home_linear_mse: 1.11559770662}
+{home_oracle_mse: 5.62343179747}
+{home_merge_mse: 3.6187431728}
+
+{home_linear_mse: 1.11373052477}
+{home_oracle_mse: 5.6212706742}
+{home_merge_mse: 3.63175320482}
+
+{home_linear_mse: 1.10473272015}
+{home_oracle_mse: 5.63548367418}
+{home_merge_mse: 3.66003590811}
+
+{home_linear_mse: 1.09833202451}
+{home_oracle_mse: 5.60347252354}
+{home_merge_mse: 3.6272882018}
+
+{home_linear_mse: 1.09120196457}
+{home_oracle_mse: 5.59629862477}
+{home_merge_mse: 3.62476386956}
+
+{home_linear_mse: 1.09173829494}
+{home_oracle_mse: 5.61154161015}
+{home_merge_mse: 3.63528903438}
+
+{home_linear_mse: 1.08775109968}
+{home_oracle_mse: 5.60440745146}
+{home_merge_mse: 3.62779340125}
+
+{home_linear_mse: 1.08977053982}
+{home_oracle_mse: 5.60051105618}
+{home_merge_mse: 3.63064732633}
+
+{home_linear_mse: 1.08835163171}
+{home_oracle_mse: 5.59239848167}
+{home_merge_mse: 3.63060695478}
+
+{home_linear_mse: 1.08777935875}
+{home_oracle_mse: 5.60643863055}
+{home_merge_mse: 3.64188502408}
+
+{home_linear_mse: 1.08726887008}
+{home_oracle_mse: 5.57139548835}
+{home_merge_mse: 3.6056711114}
+
+{home_linear_mse: 1.08541139965}
+{home_oracle_mse: 5.54869375693}
+{home_merge_mse: 3.58780570664}
+
+{home_linear_mse: 1.08273778462}
+{home_oracle_mse: 5.54632671914}
+{home_merge_mse: 3.5875195687}
+
+{home_linear_mse: 1.07979337747}
+{home_oracle_mse: 5.5525208263}
+{home_merge_mse: 3.59223692402}
+
+{home_linear_mse: 1.07725299719}
+{home_oracle_mse: 5.55291439934}
+{home_merge_mse: 3.59028672599}
+
+{home_linear_mse: 1.07402502863}
+{home_oracle_mse: 5.53401491594}
+{home_merge_mse: 3.57162504333}
+
+{home_linear_mse: 1.06111699401}
+{home_oracle_mse: 5.52023015543}
+{home_merge_mse: 3.56134916312}
+
+{home_linear_mse: 1.0590791939}
+{home_oracle_mse: 5.52609789435}
+{home_merge_mse: 3.56937707291}
+
+{home_linear_mse: 1.05488667852}
+{home_oracle_mse: 5.49693324288}
+{home_merge_mse: 3.54281895658}
+
+{home_linear_mse: 1.05311257628}
+{home_oracle_mse: 5.48309719928}
+{home_merge_mse: 3.52376038413}
+
+{home_linear_mse: 1.05187296757}
+{home_oracle_mse: 5.49447934987}
+{home_merge_mse: 3.53952814664}
+
+{home_linear_mse: 1.04996710667}
+{home_oracle_mse: 5.50069443087}
+{home_merge_mse: 3.54517952403}
+
+{home_linear_mse: 1.04530739426}
+{home_oracle_mse: 5.46601910687}
+{home_merge_mse: 3.52213692983}
+
+{home_linear_mse: 1.04186358343}
+{home_oracle_mse: 5.46229755523}
+{home_merge_mse: 3.51252882589}
+
+{home_linear_mse: 1.03993339801}
+{home_oracle_mse: 5.44750267524}
+{home_merge_mse: 3.49373221803}
+
+{home_linear_mse: 1.03589240296}
+{home_oracle_mse: 5.44350518009}
+{home_merge_mse: 3.48455597337}
+
+{home_linear_mse: 1.03204104372}
+{home_oracle_mse: 5.44035142002}
+{home_merge_mse: 3.48932352183}
+
+{home_linear_mse: 1.0288940993}
+{home_oracle_mse: 5.42045958287}
+{home_merge_mse: 3.47247691657}
+
+{home_linear_mse: 1.02599876791}
+{home_oracle_mse: 5.44043671667}
+{home_merge_mse: 3.48699960032}
+
+{home_linear_mse: 1.02401107049}
+{home_oracle_mse: 5.43337214011}
+{home_merge_mse: 3.4778165445}
+
+{home_linear_mse: 1.02283740218}
+{home_oracle_mse: 5.44512342576}
+{home_merge_mse: 3.49882135365}
+
+{home_linear_mse: 1.02136106334}
+{home_oracle_mse: 5.44295365631}
+{home_merge_mse: 3.49266659981}
+
+{home_linear_mse: 1.01846454051}
+{home_oracle_mse: 5.4439494237}
+{home_merge_mse: 3.5009324393}
+
+{home_linear_mse: 1.01302001874}
+{home_oracle_mse: 5.42291538816}
+{home_merge_mse: 3.469544762}
+
+{home_linear_mse: 1.01074985885}
+{home_oracle_mse: 5.41759327851}
+{home_merge_mse: 3.47050583725}
+
+{home_linear_mse: 1.00830476217}
+{home_oracle_mse: 5.44494257743}
+{home_merge_mse: 3.49784859999}
+
+{home_linear_mse: 1.00576608273}
+{home_oracle_mse: 5.46033102925}
+{home_merge_mse: 3.50649950339}
+
+{home_linear_mse: 1.00408668806}
+{home_oracle_mse: 5.46097134208}
+{home_merge_mse: 3.49722285529}
+
+{home_linear_mse: 1.00127693471}
+{home_oracle_mse: 5.43048580946}
+{home_merge_mse: 3.47669093227}
+
+{home_linear_mse: 0.999454900595}
+{home_oracle_mse: 5.42536718233}
+{home_merge_mse: 3.47797829388}
+
+{home_linear_mse: 0.996319449067}
+{home_oracle_mse: 5.42100321663}
+{home_merge_mse: 3.48448724642}
+
+{home_linear_mse: 0.992106756219}
+{home_oracle_mse: 5.43936593976}
+{home_merge_mse: 3.5010287838}
+
+{home_linear_mse: 0.990190365294}
+{home_oracle_mse: 5.43619001506}
+{home_merge_mse: 3.5000032534}
+
+{home_linear_mse: 0.98924320631}
+{home_oracle_mse: 5.43116046409}
+{home_merge_mse: 3.50529819608}
+
+{home_linear_mse: 0.986526508241}
+{home_oracle_mse: 5.40550406387}
+{home_merge_mse: 3.47661768134}
+
+{home_linear_mse: 0.982936595082}
+{home_oracle_mse: 5.38856810942}
+{home_merge_mse: 3.45996839493}
+
+{home_linear_mse: 0.982212364281}
+{home_oracle_mse: 5.40165669921}
+{home_merge_mse: 3.46700354764}
+
+{home_linear_mse: 0.981335764627}
+{home_oracle_mse: 5.38165719955}
+{home_merge_mse: 3.45671636555}
+
+{home_linear_mse: 0.979647109982}
+{home_oracle_mse: 5.37174068625}
+{home_merge_mse: 3.45192115905}
+
+{home_linear_mse: 0.979250177656}
+{home_oracle_mse: 5.36132781258}
+{home_merge_mse: 3.43691653516}
+
+{home_linear_mse: 0.977147759955}
+{home_oracle_mse: 5.34501594176}
+{home_merge_mse: 3.41755819565}
+
+{home_linear_mse: 0.975349800013}
+{home_oracle_mse: 5.34445051226}
+{home_merge_mse: 3.41914232354}
+
+{home_linear_mse: 0.974589205709}
+{home_oracle_mse: 5.34061244279}
+{home_merge_mse: 3.41870933275}
+
+{home_linear_mse: 0.972193748351}
+{home_oracle_mse: 5.33965211465}
+{home_merge_mse: 3.41885646654}
+
+{home_linear_mse: 0.971968959964}
+{home_oracle_mse: 5.34542511535}
+{home_merge_mse: 3.42417150772}
+
+{home_linear_mse: 0.96987994367}
+{home_oracle_mse: 5.35240635831}
+{home_merge_mse: 3.42871016194}
+
+{home_linear_mse: 0.969028318267}
+{home_oracle_mse: 5.35005038872}
+{home_merge_mse: 3.4333301452}
+
+{home_linear_mse: 0.968005517394}
+{home_oracle_mse: 5.34994444539}
+{home_merge_mse: 3.43518645505}
+
+{home_linear_mse: 0.967658697638}
+{home_oracle_mse: 5.33217352945}
+{home_merge_mse: 3.4231517118}
+
+{home_linear_mse: 0.967107735136}
+{home_oracle_mse: 5.31658257066}
+{home_merge_mse: 3.40910993503}
+
+{home_linear_mse: 0.965704475903}
+{home_oracle_mse: 5.31090503305}
+{home_merge_mse: 3.40684171198}
+
+{home_linear_mse: 0.965563000771}
+{home_oracle_mse: 5.30936841704}
+{home_merge_mse: 3.40636559768}
+
+{home_linear_mse: 0.965006500074}
+{home_oracle_mse: 5.30887532714}
+{home_merge_mse: 3.40285556234}
+
+{home_linear_mse: 0.96424702801}
+{home_oracle_mse: 5.29418617186}
+{home_merge_mse: 3.39082222911}
+
+{home_linear_mse: 0.965126177784}
+{home_oracle_mse: 5.29352001341}
+{home_merge_mse: 3.3885717416}
+
+{home_linear_mse: 0.964184257485}
+{home_oracle_mse: 5.30570661886}
+{home_merge_mse: 3.39439544995}
+
+{home_linear_mse: 0.962740566928}
+{home_oracle_mse: 5.30205862342}
+{home_merge_mse: 3.3883449505}
+
+{home_linear_mse: 0.961646199013}
+{home_oracle_mse: 5.30098170451}
+{home_merge_mse: 3.38785180253}
+
+{home_linear_mse: 0.961172924751}
+{home_oracle_mse: 5.3109933916}
+{home_merge_mse: 3.39708272873}
+
+{home_linear_mse: 0.959783230631}
+{home_oracle_mse: 5.32019800025}
+{home_merge_mse: 3.40319328487}
+
+{home_linear_mse: 0.959768607272}
+{home_oracle_mse: 5.32794167541}
+{home_merge_mse: 3.40658577069}
+
+{home_linear_mse: 0.95700370946}
+{home_oracle_mse: 5.30754189542}
+{home_merge_mse: 3.3823665728}
+
+{home_linear_mse: 0.956325182452}
+{home_oracle_mse: 5.30804277578}
+{home_merge_mse: 3.38565697139}
+
+{home_linear_mse: 0.955129357092}
+{home_oracle_mse: 5.30507403474}
+{home_merge_mse: 3.39477140919}
+
+{home_linear_mse: 0.953914315064}
+{home_oracle_mse: 5.30412016039}
+{home_merge_mse: 3.38663883442}
+
+{home_linear_mse: 0.953495035251}
+{home_oracle_mse: 5.30387153784}
+{home_merge_mse: 3.39758951751}
+
+{home_linear_mse: 0.951822170606}
+{home_oracle_mse: 5.30586673236}
+{home_merge_mse: 3.40179236779}
+
+{home_linear_mse: 0.951088566388}
+{home_oracle_mse: 5.30324744689}
+{home_merge_mse: 3.39979600829}
+
+{home_linear_mse: 0.950064055457}
+{home_oracle_mse: 5.30295473416}
+{home_merge_mse: 3.4003539178}
+
+{home_linear_mse: 0.949717859064}
+{home_oracle_mse: 5.30328689268}
+{home_merge_mse: 3.39435539184}
+
+{home_linear_mse: 0.948058328297}
+{home_oracle_mse: 5.30265547949}
+{home_merge_mse: 3.4075930629}
+
+{home_linear_mse: 0.947676138055}
+{home_oracle_mse: 5.30673630483}
+{home_merge_mse: 3.40389428851}
+
+{home_linear_mse: 0.945487773658}
+{home_oracle_mse: 5.30528671849}
+{home_merge_mse: 3.40751306797}
+
+{home_linear_mse: 0.94537175286}
+{home_oracle_mse: 5.31809036975}
+{home_merge_mse: 3.41745821027}
+
+{home_linear_mse: 0.944547940299}
+{home_oracle_mse: 5.32463568938}
+{home_merge_mse: 3.42222795024}
+
+{home_linear_mse: 0.942497493369}
+{home_oracle_mse: 5.30395204516}
+{home_merge_mse: 3.39883228859}
+
+{home_linear_mse: 0.941748377626}
+{home_oracle_mse: 5.30480406846}
+{home_merge_mse: 3.39945168122}
+
+{home_linear_mse: 0.940157476652}
+{home_oracle_mse: 5.30151868378}
+{home_merge_mse: 3.40060389382}
+
+{home_linear_mse: 0.940813069168}
+{home_oracle_mse: 5.30257123029}
+{home_merge_mse: 3.40186080821}
+
+{home_linear_mse: 0.941370022854}
+{home_oracle_mse: 5.30156624933}
+{home_merge_mse: 3.40495783807}
+
+{home_linear_mse: 0.940325752574}
+{home_oracle_mse: 5.31159794177}
+{home_merge_mse: 3.41020752142}
+
+{home_linear_mse: 0.939543819703}
+{home_oracle_mse: 5.29264342308}
+{home_merge_mse: 3.39156123237}
+
+{home_linear_mse: 0.939451885883}
+{home_oracle_mse: 5.30790541167}
+{home_merge_mse: 3.40384243641}
+
+{home_linear_mse: 0.939167830405}
+{home_oracle_mse: 5.31810900462}
+{home_merge_mse: 3.40691413289}
+
+{home_linear_mse: 0.939013742146}
+{home_oracle_mse: 5.30583368228}
+{home_merge_mse: 3.39423696653}
+
+{home_linear_mse: 0.939077413842}
+{home_oracle_mse: 5.31176740393}
+{home_merge_mse: 3.39813910703}
+
+{home_linear_mse: 0.939005079723}
+{home_oracle_mse: 5.31385623199}
+{home_merge_mse: 3.40209149252}
+
+{home_linear_mse: 0.938016799543}
+{home_oracle_mse: 5.31169506934}
+{home_merge_mse: 3.40203985786}
+
+{home_linear_mse: 0.937894105663}
+{home_oracle_mse: 5.3121851996}
+{home_merge_mse: 3.40084388085}
+
+{home_linear_mse: 0.935443218916}
+{home_oracle_mse: 5.31963139395}
+{home_merge_mse: 3.40686430109}
+
+{home_linear_mse: 0.934424286953}
+{home_oracle_mse: 5.30783695125}
+{home_merge_mse: 3.38736656008}
+
+{home_linear_mse: 0.934186229817}
+{home_oracle_mse: 5.29946391749}
+{home_merge_mse: 3.38364304237}
+
+{home_linear_mse: 0.932876344019}
+{home_oracle_mse: 5.29647956279}
+{home_merge_mse: 3.39102883506}
+
+{home_linear_mse: 0.933112425166}
+{home_oracle_mse: 5.28364353155}
+{home_merge_mse: 3.37568965802}
+
+{home_linear_mse: 0.932628992842}
+{home_oracle_mse: 5.28700435879}
+{home_merge_mse: 3.38622353561}
+
+{home_linear_mse: 0.932204256236}
+{home_oracle_mse: 5.28686182703}
+{home_merge_mse: 3.38480055855}
+
+{home_linear_mse: 0.932022168635}
+{home_oracle_mse: 5.29501826995}
+{home_merge_mse: 3.39044673013}
+
+{home_linear_mse: 0.931093301245}
+{home_oracle_mse: 5.29366853465}
+{home_merge_mse: 3.38913434386}
+
+{home_linear_mse: 0.930797743402}
+{home_oracle_mse: 5.29337337741}
+{home_merge_mse: 3.37893339701}
+
+{home_linear_mse: 0.931499249914}
+{home_oracle_mse: 5.29347605936}
+{home_merge_mse: 3.38541367549}
+
+{home_linear_mse: 0.93066628983}
+{home_oracle_mse: 5.29462228119}
+{home_merge_mse: 3.3782404446}
+
+{home_linear_mse: 0.930739810564}
+{home_oracle_mse: 5.29433211536}
+{home_merge_mse: 3.38277468837}
+
+{home_linear_mse: 0.930245541409}
+{home_oracle_mse: 5.298287465}
+{home_merge_mse: 3.38272819186}
+
+{home_linear_mse: 0.93053125667}
+{home_oracle_mse: 5.30141970308}
+{home_merge_mse: 3.38253672181}
+
+{home_linear_mse: 0.930239823441}
+{home_oracle_mse: 5.30026940671}
+{home_merge_mse: 3.38255320129}
+
+{home_linear_mse: 0.929165242889}
+{home_oracle_mse: 5.29953793308}
+{home_merge_mse: 3.37904163383}
+

@@ -223,7 +223,7 @@ class CUTreeAgent:
 
         return zip(q_home.tolist(), q_away.tolist(), q_end.tolist())
 
-    def boost_tree_testing_performance(self, save_path, read_game_number, save_correlation_dir, save_mse_dir, save_mae_dir):
+    def boost_tree_testing_performance(self, save_path, read_game_number, save_correlation_dir, save_mse_dir, save_mae_dir, save_rae_dir, save_rse_dir):
         print >> sys.stderr, 'starting from {0}'.format(read_game_number)
         self.utree = pickle.load(open(save_path + 'pickle_Game_File_' + str(read_game_number) + '.p', 'rb'))
         print >> sys.stderr, 'finishing read tree'
@@ -231,7 +231,7 @@ class CUTreeAgent:
 
         game_testing_record_dict = {}
 
-        game_to_print_list = range(801, 901)
+        game_to_print_list = range(1001, 1101)
         for game_number in game_to_print_list:
 
             game_record = self.read_csv_game_record(
@@ -295,9 +295,11 @@ class CUTreeAgent:
                                                         oracle_append_q)
             merge_q += merge_append_q
 
-        self.compute_correlation(all_q_values_record, save_correlation_dir)
-        self.compute_mae(all_q_values_record, save_mae_dir)
-        self.compute_mse(all_q_values_record, save_mse_dir)
+        # self.compute_correlation(all_q_values_record, save_correlation_dir)
+        # self.compute_mae(all_q_values_record, save_mae_dir)
+        # self.compute_mse(all_q_values_record, save_mse_dir)
+        self.compute_rae(all_q_values_record, save_rae_dir)
+        self.compute_rse(all_q_values_record, save_rse_dir)
 
     def merge_oracle_linear_q(self, test_qs, linear_qs, oracle_qs):
         criteria = 0.7
@@ -319,6 +321,42 @@ class CUTreeAgent:
         text_file.write('{linear_correl: ' + str(linear_correl) + '}\n')
         text_file.write('{oracle_correl: ' + str(oracle_correl) + '}\n')
         text_file.write('{merge_correl: ' + str(merge_correl) + '}\n')
+        text_file.write('\n')
+        text_file.close()
+
+    def compute_rse(self, all_q_values_record, save_rse_dir):
+        linear_rse = self.relative_square_error(all_q_values_record.get('output_q'),
+                                                all_q_values_record.get('test_q'))
+
+        oracle_rse = self.relative_square_error(all_q_values_record.get('oracle_q'),
+                                                all_q_values_record.get('test_q'))
+
+        merge_rse = self.relative_square_error(all_q_values_record.get('merge_q'),
+                                               all_q_values_record.get('test_q'))
+
+        text_file = open("./" + save_rse_dir, "a")
+
+        text_file.write('{home_linear_rse: ' + str(linear_rse) + '}\n')
+        text_file.write('{home_oracle_rse: ' + str(oracle_rse) + '}\n')
+        text_file.write('{home_merge_rse: ' + str(merge_rse) + '}\n')
+        text_file.write('\n')
+        text_file.close()
+
+    def compute_rae(self, all_q_values_record, save_rae_dir):
+        linear_rae = self.relative_absolute_error(all_q_values_record.get('output_q'),
+                                                  all_q_values_record.get('test_q'))
+
+        oracle_rae = self.relative_absolute_error(all_q_values_record.get('oracle_q'),
+                                                  all_q_values_record.get('test_q'))
+
+        merge_rae = self.relative_absolute_error(all_q_values_record.get('merge_q'),
+                                                 all_q_values_record.get('test_q'))
+
+        text_file = open("./" + save_rae_dir, "a")
+
+        text_file.write('{home_linear_rae: ' + str(linear_rae) + '}\n')
+        text_file.write('{home_oracle_rae: ' + str(oracle_rae) + '}\n')
+        text_file.write('{home_merge_rae: ' + str(merge_rae) + '}\n')
         text_file.write('\n')
         text_file.close()
 
@@ -357,6 +395,28 @@ class CUTreeAgent:
         text_file.write('{home_merge_mse: ' + str(merge_mse) + '}\n')
         text_file.write('\n')
         text_file.close()
+
+    def relative_square_error(self, test_qs, target_qs):
+        sse = 0
+        rse = 0
+        test_qs = map(float, test_qs)
+        target_qs = map(float, target_qs)
+        tm = np.mean(target_qs)
+        for index in range(0, len(test_qs)):
+            sse += (test_qs[index] - target_qs[index]) ** 2
+            rse += (tm - target_qs[index]) ** 2
+        return sse / rse
+
+    def relative_absolute_error(self, test_qs, target_qs):
+        sae = 0
+        rae = 0
+        test_qs = map(float, test_qs)
+        target_qs = map(float, target_qs)
+        tm = np.mean(target_qs)
+        for index in range(0, len(test_qs)):
+            sae += abs(test_qs[index] - target_qs[index])
+            rae += abs(tm - target_qs[index])
+        return sae / rae
 
     def mean_square_error(self, test_qs, target_qs):
         sse = 0
@@ -453,6 +513,35 @@ class CUTreeAgent:
         pickle.dump(self.utree,
                     open(self.SAVE_MODEL_TREE_PATH + 'Model_Tree_File_' + str(train_game_number) + '.p', 'wb'))
         print 'finish saving ' + self.SAVE_MODEL_TREE_PATH + 'Model_Tree_File_' + str(train_game_number) + '.p'
+
+    def feature_importance(self):
+        self.read_Utree(game_number=100, save_path=self.SAVE_PATH)
+
+        self.utree.feature_influence_dict = {'position': 0, 'velocity': 0, 'actions': 0}
+
+        game_to_print_list = range(301, 401)
+        for game_number in game_to_print_list:
+
+            game_record = self.read_csv_game_record(
+                self.problem.games_directory + 'record_moutaincar_transition_game{0}.csv'.format(int(game_number)))
+
+            event_number = len(game_record)
+
+            for index in range(0, event_number):
+                transition = game_record[index]
+                currentObs = transition.get('observation').split('$')
+                nextObs = transition.get('newObservation').split('$')
+                reward = float(transition.get('reward'))
+                action = float(transition.get('action'))
+                qValue = float(transition.get('qValue'))
+
+                inst = C_UTree.Instance(-1, currentObs, action, nextObs, reward, qValue)
+                self.utree.insertTestInstances(inst=inst, qValue=qValue)
+
+        visit_count = self.utree.recursive_calculate_feature_importance(node=self.utree.root)
+
+
+        print (self.utree.feature_influence_dict)
 
     def episode(self, game_number, timeout=int(100000.0), save_checkpoint_flag=1):
         """
